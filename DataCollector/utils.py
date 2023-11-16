@@ -38,11 +38,36 @@ class PageControl:
         # confirm player
         driver.find_element(By.XPATH, add_player_ok_button).click()
 
-    def addEnemie(driver, enemie):
-        pass
+    def addEnemy(driver, enemy):
+        # add enemy
+        driver.find_element(By.XPATH, add_enemy).click()
+    
+        # set enemy name
+        driver.find_element(By.XPATH, enemy_name_input).send_keys(enemy['name'])
+
+        # click searched enemy
+        driver.find_element(By.XPATH, select_searched_enemy).click()    
+
+        # confirm enemy
+        driver.find_element(By.XPATH, add_enemy_ok_button).click()
+
+        # set number of enemies
+        num_field = driver.find_element(By.XPATH, num_enemy_input)
+        num_field.clear()
+        num_field.send_keys(enemy['num_enemies'])
 
     def creatureAddedLog(creature):
         print(f"Adicionado um {creature['class']} de nível {creature['level']} com {creature['hitpoints']} pontos de vida e armour class de {creature['armour_class']}")
+
+    def getResults(driver):
+        raw_result_set = ''
+        for i in range(1,10):
+            try:
+                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i}]')
+            except:
+                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i-1}]')
+                break
+
 
 class Players():
     def __init__(self,num_players):
@@ -59,7 +84,7 @@ class Players():
 
     def create_player(self):
         player = {
-            "class": classes[randint(0, 11)],
+            "class": classes[randint(0,12)],
             "level": self.players_level,
             "hitpoints": None,
             "armour_class":  None,
@@ -82,11 +107,20 @@ class Players():
             player["armour_class"] = randint(armour_classes_range[player["class"]][0], armour_classes_range[player["class"]][1])
 
 class Enemies():
-    def __init__(self):
+    def __init__(self,level):
+        self.players_level = level
         self.create_enemie()
         self.num_enemies = self.set_num_enemies()
         print(f"Peguei {self.num_enemies} {self.name} de CR {self.cr} com {self.hp} pontos de vida e armour class de {self.ac}")       
-    
+        
+        self.enemies = {
+            "num_enemies": self.num_enemies,
+            "name": self.name,
+            "cr": self.cr,
+            "hp": self.hp,
+            "ac": self.ac
+        }
+
     def create_enemie(self):
         df = read_csv('Data/enemies_under_14_final.csv')
         random_enemy = randint(0, len(df['name'])-1)
@@ -97,9 +131,22 @@ class Enemies():
 
     def set_num_enemies(self):
         num_enemies = 1
-        treshhold = randint(0,20)
+        limits = self.set_trerhold_based_on_level()
+        treshhold = randint(limits[0], limits[1])
         if(self.cr == 0): 
             return 10
-        while(self.cr*num_enemies < treshhold):
+        while(self.cr*num_enemies < treshhold and num_enemies < 20):
             num_enemies += 1
         return num_enemies
+    
+    def set_trerhold_based_on_level(self):
+        if(self.players_level == 1):
+            return [0,4]
+        elif(self.players_level == 2):
+            return [1,5]
+        elif(self.players_level == 3):
+            return [2,10]
+        elif(self.players_level == 4):
+            return [3,12]
+        else:
+            return [4,18]

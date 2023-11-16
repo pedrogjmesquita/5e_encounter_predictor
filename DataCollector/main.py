@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from constants import accept_cookies_button
 
-from utils import PageControl
+from utils import Enemies, PageControl
 from utils import Players
 
 
@@ -24,6 +24,12 @@ for player in players.players:
     PageControl.addPlayer(driver, player)
     PageControl.creatureAddedLog(player)
 
+enemies = Enemies(players.players[0]['level'])
+PageControl.addEnemy(driver, enemies.enemies)
+
+print(PageControl.getResults(driver))
+
+sleep(10)
 
 # close the browser
 driver.quit()
