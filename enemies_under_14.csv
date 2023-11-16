@@ -1,0 +1,626 @@
+Enemy,CR
+Aarakocra,0.25
+Abjurer Wizard,9.0
+Aboleth,10.0
+Abominable Yeti,9.0
+Acolyte,0.25
+Adult Brass Dragon,13.0
+Adult Kruthik,2.0
+Adult Oblex,5.0
+Adult White Dragon,13.0
+Air Elemental,5.0
+Air Elemental Myrmidon,7.0
+Alhoon,10.0
+Alkilith,11.0
+Allip,5.0
+Allosaurus,2.0
+Angry Sorrowsworn,13.0
+Animated Armor,1.0
+Ankheg,2.0
+Ankylosaurus,3.0
+Annis Hag,6.0
+Ape,0.5
+Apprentice Wizard,0.25
+Arcanaloth,12.0
+Archdruid,12.0
+Archer,3.0
+Archmage,12.0
+Armanite,7.0
+Assassin,8.0
+Aurochs,2.0
+Autumn Eladrin,10.0
+Awakened Shrub,0.0
+Awakened Tree,2.0
+Axe Beak,0.25
+Azer,2.0
+Babau,4.0
+Baboon,0.0
+Badger,0.0
+Balhannoth,11.0
+Banderhobb,5.0
+Bandit,0.125
+Bandit Captain,2.0
+Banshee,4.0
+Barbed Devil,5.0
+Bard,2.0
+Barghest,4.0
+Barlgura,5.0
+Basilisk,3.0
+Bat,0.0
+Bearded Devil,3.0
+Behir,11.0
+Beholder,13.0
+Beholder Zombie,5.0
+Berbalang,2.0
+Berserker,2.0
+Bheur Hag,7.0
+Black Abishai,7.0
+Black Bear,0.5
+Black Dragon Wyrmling,2.0
+Black Pudding,4.0
+Blackguard,8.0
+Blink Dog,0.25
+Blood Hawk,0.125
+Blue Dragon Wyrmling,3.0
+Blue Slaad,7.0
+Boar,0.25
+Bodak,6.0
+Boggle,0.125
+Bone Devil,9.0
+Bone Naga (Guardian),4.0
+Bone Naga (Spirit),4.0
+Boneclaw,12.0
+Brass Dragon Wyrmling,1.0
+Brontosaurus,5.0
+Bronze Dragon Wyrmling,2.0
+Brown Bear,1.0
+Bugbear,1.0
+Bugbear Chief,3.0
+Bulette,5.0
+Bulezau,3.0
+Bullywug,0.25
+Cambion,5.0
+Camel,0.125
+Canoloth,8.0
+Carrion Crawler,2.0
+Cat,0.0
+Catoblepas,5.0
+Cave Bear,2.0
+Cave Fisher,3.0
+Centaur,2.0
+Chain Devil,8.0
+Champion,9.0
+Chasme,6.0
+Chimera,6.0
+Chitine,0.5
+Choker,1.0
+Choldrith,3.0
+Chuul,4.0
+Clay Golem,9.0
+Cloaker,8.0
+Clockwork Bronze Scout,1.0
+Clockwork Iron Cobra,4.0
+Clockwork Oaken Bolter,5.0
+Clockwork Stone Defender,4.0
+Cloud Giant,9.0
+Cloud Giant Smiling One,11.0
+Cockatrice,0.5
+Commoner,0.0
+Constrictor Snake,0.25
+Copper Dragon Wyrmling,1.0
+Corpse Flower,8.0
+Couatl,4.0
+Crab,0.0
+Cranium Rat,0.0
+Crawling Claw,0.0
+Crocodile,0.5
+Cult Fanatic,2.0
+Cultist,0.125
+Cyclops,6.0
+Dao,11.0
+Darkling,0.5
+Darkling Elder,2.0
+Darkmantle,0.5
+Death Dog,1.0
+Death Kiss,10.0
+Death Slaad,10.0
+Deathlock,4.0
+Deathlock Mastermind,8.0
+Deathlock Wight,3.0
+Deep Gnome (Svirfneblin),0.5
+Deep Rothé,0.25
+Deep Scion,3.0
+Deer,0.0
+Deinonychus,1.0
+Derro,0.25
+Derro Savant,3.0
+Deva,10.0
+Devourer,13.0
+Dhergoloth,7.0
+Dimetrodon,0.25
+Dire Troll,13.0
+Dire Wolf,1.0
+Displacer Beast,3.0
+Diviner Wizard,8.0
+Djinni,11.0
+Dolphin,0.125
+Dolphin Delighter,3.0
+Doppelganger,3.0
+Draegloth,7.0
+Draft Horse,0.25
+Dretch,0.25
+Drider,6.0
+Drow,0.25
+Drow Arachnomancer,13.0
+Drow Elite Warrior,5.0
+Drow House Captain,9.0
+Drow Mage,7.0
+Drow Priestess of Lolth,8.0
+Drow Shadowblade,11.0
+Druid,2.0
+Dryad,1.0
+Duergar,1.0
+Duergar Despot,12.0
+Duergar Hammerer,2.0
+Duergar Kavalrachni,2.0
+Duergar Mind Master,2.0
+Duergar Screamer,3.0
+Duergar Soulblade,1.0
+Duergar Stone Guard,2.0
+Duergar Warlord,6.0
+Duergar Xarrorn,2.0
+Duodrone,0.25
+Dust Mephit,0.5
+Dybbuk,4.0
+Eagle,0.0
+Earth Elemental,5.0
+Earth Elemental Myrmidon,7.0
+Efreeti,11.0
+Eidolon,12.0
+Elder Oblex,10.0
+Elephant,4.0
+Elk,0.25
+Enchanter Wizard,5.0
+Erinyes,12.0
+Ettercap,2.0
+Ettin,4.0
+Evoker Wizard,9.0
+Faerie Dragon (Blue),2.0
+Faerie Dragon (Green),2.0
+Faerie Dragon (Indigo),2.0
+Faerie Dragon (Orange),1.0
+Faerie Dragon (Red),1.0
+Faerie Dragon (Violet),2.0
+Faerie Dragon (Yellow),1.0
+Female Steeder,1.0
+Fire Elemental,5.0
+Fire Elemental Myrmidon,7.0
+Fire Giant,9.0
+Fire Snake,1.0
+Firenewt Warlock of Imix,1.0
+Firenewt Warrior,0.5
+Flail Snail,3.0
+Flameskull,4.0
+Flesh Golem,5.0
+Flind,9.0
+Flumph,0.125
+Flying Snake,0.125
+Flying Sword,0.25
+Fomorian,8.0
+Frog,0.0
+Froghemoth,10.0
+Frost Giant,8.0
+Frost Giant Everlasting One,12.0
+Frost Salamander,9.0
+Galeb Duhr,6.0
+Gargoyle,2.0
+Gas Spore,0.5
+Gauth,6.0
+Gazer,0.5
+Gelatinous Cube,2.0
+Ghast,2.0
+Ghost,4.0
+Ghoul,1.0
+Giant Ape,7.0
+Giant Badger,0.25
+Giant Bat,0.25
+Giant Boar,2.0
+Giant Centipede,0.25
+Giant Constrictor Snake,2.0
+Giant Crab,0.125
+Giant Crocodile,5.0
+Giant Eagle,1.0
+Giant Elk,2.0
+Giant Fire Beetle,0.0
+Giant Frog,0.25
+Giant Goat,0.5
+Giant Hyena,1.0
+Giant Lizard,0.25
+Giant Octopus,1.0
+Giant Owl,0.25
+Giant Poisonous Snake,0.25
+Giant Rat,0.125
+Giant Scorpion,3.0
+Giant Sea Horse,0.5
+Giant Shark,5.0
+Giant Spider,1.0
+Giant Strider,1.0
+Giant Toad,1.0
+Giant Vulture,1.0
+Giant Wasp,0.5
+Giant Weasel,0.125
+Giant Wolf Spider,0.25
+Gibbering Mouther,2.0
+Giff,3.0
+Girallon,4.0
+Githyanki Gish,10.0
+Githyanki Kith'rak,12.0
+Githyanki Knight,8.0
+Githyanki Warrior,3.0
+Githzerai Enlightened,10.0
+Githzerai Monk,2.0
+Githzerai Zerth,6.0
+Glabrezu,9.0
+Gnoll,0.5
+Gnoll Fang of Yeenoghu,4.0
+Gnoll Flesh Gnawer,1.0
+Gnoll Hunter,0.5
+Gnoll Pack Lord,2.0
+Gnoll Witherling,0.25
+Goat,0.0
+Goblin,0.25
+Goblin Boss,1.0
+Gold Dragon Wyrmling,3.0
+Gorgon,5.0
+Gray Ooze,0.5
+Gray Render,12.0
+Gray Slaad,9.0
+Green Dragon Wyrmling,2.0
+Green Hag,3.0
+Green Slaad,8.0
+Grell,3.0
+Grick,2.0
+Grick Alpha,7.0
+Griffon,2.0
+Grimlock,0.25
+Grung,0.25
+Grung Elite Warrior,2.0
+Grung Wildling,1.0
+Guard,0.125
+Guard Drake,2.0
+Guardian Naga,10.0
+Gynosphinx,11.0
+Hadrosaurus,0.25
+Half-Ogre (Ogrillon),1.0
+Half-Red Dragon Veteran,5.0
+Harpy,1.0
+Hawk,0.0
+Hell Hound,3.0
+Helmed Horror,4.0
+Hezrou,8.0
+Hill Giant,5.0
+Hippogriff,1.0
+Hobgoblin,0.5
+Hobgoblin Captain,3.0
+Hobgoblin Devastator,4.0
+Hobgoblin Iron Shadow,2.0
+Hobgoblin Warlord,6.0
+Homunculus,0.0
+Hook Horror,3.0
+Horned Devil,11.0
+Howler,8.0
+Hungry Sorrowsworn,11.0
+Hunter Shark,2.0
+Hydra,8.0
+Hydroloth,9.0
+Hyena,0.0
+Ice Mephit,0.5
+Illusionist Wizard,3.0
+Imp,1.0
+Incubus,4.0
+Intellect Devourer,2.0
+Invisible Stalker,6.0
+Jackal,0.0
+Jackalwere,0.5
+Kenku,0.25
+Ki-rin,12.0
+Killer Whale,3.0
+Knight,3.0
+Kobold,0.125
+Kobold Dragonshield,1.0
+Kobold Inventor,0.25
+Kobold Scale Sorcerer,1.0
+Korred,7.0
+Kraken Priest,5.0
+Kruthik Hive Lord,5.0
+Kuo-toa,0.25
+Kuo-toa Archpriest,6.0
+Kuo-toa Monitor,3.0
+Kuo-toa Whip,1.0
+Lamia,4.0
+Lemure,0.0
+Leucrotta,3.0
+Lion,1.0
+Lizard,0.0
+Lizard King,4.0
+Lizard Queen,4.0
+Lizardfolk,0.5
+Lizardfolk Shaman,2.0
+Lonely Sorrowsworn,9.0
+Lost Sorrowsworn,7.0
+Mage,6.0
+Magma Mephit,0.5
+Magmin,0.5
+Male Steeder,0.25
+Mammoth,6.0
+Manes,0.125
+Manticore,3.0
+Marid,11.0
+Martial Arts Adept,3.0
+Master Thief,5.0
+Mastiff,0.125
+Maurezhi,7.0
+Maw Demon,1.0
+Meazel,1.0
+Medusa,6.0
+Meenlock,2.0
+Merfolk,0.125
+Merregon,4.0
+Merrenoloth,3.0
+Merrow,2.0
+Mezzoloth,5.0
+Mimic,2.0
+Mind Flayer,7.0
+Mind Flayer Arcanist,8.0
+Mindwitness,5.0
+Minotaur,3.0
+Minotaur Skeleton,2.0
+Monodrone,0.125
+Morkoth,11.0
+Mouth of Grolantor,6.0
+Mud Mephit,0.25
+Mule,0.125
+Mummy,3.0
+Myconid Adult,0.5
+Myconid Sovereign,2.0
+Myconid Sprout,0.0
+Nalfeshnee,13.0
+Narzugon,13.0
+Necromancer Wizard,9.0
+Needle Blight,0.25
+Neogi,3.0
+Neogi Hatchling,0.125
+Neogi Master,4.0
+Neothelid,13.0
+Night Hag,5.0
+Nightmare,3.0
+Nilbog,1.0
+Noble,0.125
+Nothic,2.0
+Nupperibo,0.5
+Nycaloth,9.0
+Oblex Spawn,0.25
+Ochre Jelly,2.0
+Octopus,0.0
+Ogre,2.0
+Ogre Battering Ram,4.0
+Ogre Bolt Launcher,2.0
+Ogre Chain Brute,3.0
+Ogre Howdah,2.0
+Ogre Zombie,2.0
+Oinoloth,12.0
+Oni,7.0
+Orc,0.5
+Orc Eye of Gruumsh,2.0
+Orc War Chief,4.0
+Orog,2.0
+Orthon,10.0
+Otyugh,5.0
+Owl,0.0
+Owlbear,3.0
+Ox,0.25
+Panther,0.25
+Pegasus,2.0
+Pentadrone,2.0
+Peryton,2.0
+Phase Spider,3.0
+Piercer,0.5
+Pixie,0.25
+Plesiosaurus,2.0
+Poisonous Snake,0.125
+Polar Bear,2.0
+Poltergeist,2.0
+Pony,0.125
+Priest,2.0
+Pseudodragon,0.25
+Pteranodon,0.25
+Quadrone,1.0
+Quaggoth,2.0
+Quaggoth Spore Servant,1.0
+Quaggoth Thonot,3.0
+Quasit,1.0
+Quetzalcoatlus,2.0
+Quickling,1.0
+Quipper,0.0
+Rakshasa,13.0
+Rat,0.0
+Raven,0.0
+Red Dragon Wyrmling,4.0
+Red Slaad,5.0
+Redcap,3.0
+Reef Shark,0.5
+Remorhaz,11.0
+Revenant,5.0
+Rhinoceros,2.0
+Riding Horse,0.25
+Roc,11.0
+Roper,5.0
+Rot Troll,9.0
+Rug of Smothering,2.0
+Rust Monster,0.5
+Rutterkin,2.0
+Saber-Toothed Tiger,2.0
+Sahuagin,0.5
+Sahuagin Baron,5.0
+Sahuagin Priestess,2.0
+Salamander,5.0
+Satyr,0.5
+Scarecrow,1.0
+Scorpion,0.0
+Scout,0.5
+Sea Hag,2.0
+Sea Horse,0.0
+Sea Spawn,1.0
+Shadar-kai Gloom Weaver,9.0
+Shadar-kai Shadow Dancer,7.0
+Shadar-kai Soul Monger,11.0
+Shadow,0.5
+Shadow Demon,4.0
+Shadow Mastiff,2.0
+Shadow Mastiff Alpha,3.0
+Shambling Mound,5.0
+Shield Guardian,7.0
+Shoosuva,8.0
+Shrieker,0.0
+Silver Dragon Wyrmling,2.0
+Skeleton,0.25
+Skulk,0.5
+Slaad Tadpole,0.125
+Slithering Tracker,3.0
+Smoke Mephit,0.25
+Spawn of Kyuss,5.0
+Spectator,3.0
+Specter,1.0
+Spider,0.0
+Spined Devil,2.0
+Spirit Naga,8.0
+Spirit Troll,11.0
+Spring Eladrin,10.0
+Sprite,0.25
+Spy,1.0
+Star Spawn Grue,0.25
+Star Spawn Hulk,10.0
+Star Spawn Mangler,5.0
+Star Spawn Seer,13.0
+Steam Mephit,0.25
+Stegosaurus,4.0
+Stench Kow,0.5
+Stirge,0.125
+Stone Cursed,1.0
+Stone Giant,7.0
+Stone Giant Dreamwalker,10.0
+Stone Golem,10.0
+Storm Giant,13.0
+Succubus,4.0
+Summer Eladrin,10.0
+Swarm of Bats,0.25
+Swarm of Beetles,0.5
+Swarm of Centipedes,0.5
+Swarm of Cranium Rats,5.0
+Swarm of Insects,0.5
+Swarm of Poisonous Snakes,2.0
+Swarm of Quippers,1.0
+Swarm of Rats,0.25
+Swarm of Ravens,0.25
+Swarm of Rot Grubs,0.5
+Swarm of Spiders,0.5
+Swarm of Wasps,0.5
+Swashbuckler,3.0
+Sword Wraith Commander,8.0
+Sword Wraith Warrior,3.0
+Tanarukk,5.0
+Thorny Vegepygmy,1.0
+Thri-kreen,1.0
+Thug,0.5
+Tiger,1.0
+Tlincalli,5.0
+Tortle,0.25
+Tortle Druid,2.0
+Transmuter Wizard,5.0
+Trapper,3.0
+Treant,9.0
+Tribal Warrior,0.125
+Triceratops,5.0
+Tridrone,0.5
+Troglodyte,0.25
+Troll,5.0
+Twig Blight,0.125
+Tyrannosaurus Rex,8.0
+Ulitharid,9.0
+Ultroloth,13.0
+Umber Hulk,5.0
+Unicorn,5.0
+Vampire,13.0
+Vampire Spawn,5.0
+Vampiric Mist,3.0
+Vargouille,1.0
+Vegepygmy,0.25
+Vegepygmy Chief,2.0
+Velociraptor,0.25
+Venom Troll,7.0
+Veteran,3.0
+Vine Blight,0.5
+Violet Fungus,0.25
+Vrock,6.0
+Vulture,0.0
+War Priest,9.0
+Warhorse,0.5
+Warhorse Skeleton,0.5
+Warlock of the Archfey,4.0
+Warlock of the Fiend,7.0
+Warlock of the Great Old One,6.0
+Warlord,12.0
+Wastrilith,13.0
+Water Elemental,5.0
+Water Elemental Myrmidon,7.0
+Water Weird,3.0
+Weasel,0.0
+Werebear,5.0
+Wereboar,4.0
+Wererat,2.0
+Weretiger,4.0
+Werewolf,3.0
+White Abishai,6.0
+White Dragon Wyrmling,2.0
+Wight,3.0
+Will-o'-Wisp,2.0
+Winged Kobold,0.25
+Winter Eladrin,10.0
+Winter Wolf,3.0
+Wolf,0.25
+Wood Woad,5.0
+Worg,0.5
+Wraith,5.0
+Wretched Sorrowsworn,0.25
+Wyvern,6.0
+Xorn,5.0
+Xvart,0.125
+Xvart Warlock of Raxivort,1.0
+Yagnoloth,11.0
+Yeth Hound,4.0
+Yeti,3.0
+Yochlol,10.0
+Young Black Dragon,7.0
+Young Blue Dragon,9.0
+Young Brass Dragon,6.0
+Young Bronze Dragon,8.0
+Young Copper Dragon,7.0
+Young Gold Dragon,10.0
+Young Green Dragon,8.0
+Young Kruthik,0.125
+Young Red Dragon,10.0
+Young Red Shadow Dragon,13.0
+Young Remorhaz,5.0
+Young Silver Dragon,9.0
+Young White Dragon,6.0
+Yuan-ti Abomination,7.0
+Yuan-ti Anathema,12.0
+Yuan-ti Broodguard,2.0
+Yuan-ti Malison (Type 1),3.0
+Yuan-ti Malison (Type 2),3.0
+Yuan-ti Malison (Type 3),3.0
+Yuan-ti Mind Whisperer,4.0
+Yuan-ti Nightmare Speaker,4.0
+Yuan-ti Pit Master,5.0
+Yuan-ti Pureblood,1.0
+Zombie,0.25
