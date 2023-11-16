@@ -102,7 +102,6 @@ class Enemies():
         self.players_level = level
         self.create_enemie()
         self.num_enemies = self.set_num_enemies()
-        print(f"Peguei {self.num_enemies} {self.name} de CR {self.cr} com {self.hp} pontos de vida e armour class de {self.ac}")       
         
         self.enemies = {
             "num_enemies": self.num_enemies,
@@ -152,7 +151,7 @@ class ResultHandler:
                 raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i-1}]')
                 break
         result_set = ResultHandler.parseResults(raw_result_set.text, num_players)
-        print(ResultHandler.lifeFraction(result_set))
+        return ResultHandler.lifeFraction(result_set)
 
 
     def parseResults(raw_result_set, num_players):
@@ -164,26 +163,41 @@ class ResultHandler:
         
     def lifeFraction(lifes:list):
         remaining_life = 0
-        for life in lifes:
-            life = life.split('/')
-            if '+' in life[0]:
-                life[0] = ResultHandler.handleLifeWithModifier(life[0])
-            remaining_life += int(life[0])
         total_life = 0
-        for life in lifes:
-            life = life.split('/')
-            if '+' in life[1]:
-                life[1] = ResultHandler.handleLifeWithModifier(life[1])
-            total_life += int(life[1])
+        try:
+            for life in lifes:
+                
+                if '+' in life:
+                    life = ResultHandler.handleLifeWithModifier(life)
+
+                life = life.split('/')
+                remaining_life += int(life[0])
+                total_life += int(life[1])
+        except:
+            print(lifes)
         return f'{remaining_life}/{total_life}'
     
     def handleLifeWithModifier(life):
-        if '+' in life:
-            return str(life.split('+')[0] + life.split('+')[1])
+        life = life.split('/')
+        top_life = int(life[0])
+        bottom_life = int(life[1].split('+')[0])
+        modifier = int(life[1].split('+')[1])
+        if top_life == 0:
+            pass
+        elif top_life + modifier > bottom_life:
+            top_life = bottom_life
         else:
-            return str(life.split('-')[0] - life.split('-')[1])
+            top_life = top_life + modifier
+        return f'{top_life}/{bottom_life}'
+    
+    def writeResults(players, enemies, life_results):
+        life_fraction = float(life_results.split('/')[0])/float(life_results.split('/')[1])
+        result = ''
+        for player in players:
+            result += f'{player["class"]},{player["level"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
 
+        with open('results.csv', 'a') as f:
+            f.write(f'{result}{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_fraction} \n')
+            f.close()
 
-def creatureAddedLog(creature):
-    print(f"Adicionado um {creature['class']} de nível {creature['level']} com {creature['hitpoints']} pontos de vida e armour class de {creature['armour_class']}")
 

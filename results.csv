@@ -1,0 +1,37 @@
+p1_class,p1_level,p1_hp,p1_ac,p2_class,p2_level,p2_hp,p2_ac,p3_class,p3_level,p3_hp,p3_ac,p4_class,p4_level,p4_hp,p4_ac,p5_class,p5_level,p5_hp,p5_ac,monster_name,monster_cr,monster_ac,monster_hp,final_total_hp
+Barbarian,1,14,16,2,Warlock,1,5,15,2,Barbarian,1,9,14,2,Rogue,1,8,17,2,Eagle,0.0,12,3,0.3888888888888889 
+Fighter,1,7,17,2,Paladin,1,10,16,2,Rogue,1,9,17,2,Warlock,1,9,15,2,Awakened Tree,2.0,13,59,0.3142857142857143 
+Ranger,3,21,16,3,Bard,3,20,15,3,Rogue,3,24,11,3,Artificer,3,17,12,3,Black Pudding,4.0,7,85,0.0 
+Monk,1,4,11,2,Artificer,1,9,13,2,Cleric,1,10,15,2,Bard,1,8,13,2,Dao,11.0,18,187,0.0 
+Artificer,4,34,18,3,Ranger,4,42,17,3,Fighter,4,36,12,3,Paladin,4,39,19,3,Bugbear,1.0,16,27,0.46357615894039733 
+Druid,5,36,16,3,Artificer,5,32,17,3,Ranger,5,36,14,3,Warlock,5,38,11,3,Giant Crocodile,5.0,14,85,0.9577464788732394 
+Monk,3,26,13,3,Warlock,3,22,12,3,Ranger,3,29,12,3,Monk,3,26,15,3,Grell,3.0,12,55,0.1941747572815534 
+Ranger,4,33,12,3,Fighter,4,41,15,3,Monk,4,31,15,3,Rogue,4,25,15,3,Efreeti,11.0,17,200,0.05384615384615385 
+Paladin,4,41,14,3,Sorcerer,4,28,10,3,Wizzard,4,28,13,3,Wizzard,4,34,13,3,Clay Golem,9.0,14,133,0.0 
+Druid,5,44,11,3,Ranger,5,32,14,3,Monk,5,29,10,3,Druid,5,43,12,3,Young Black Dragon,7.0,18,127,0.0 
+Rogue,3,22,17,3,Sorcerer,3,22,13,3,Bard,3,26,14,3,Rogue,3,23,13,3,Chasme,6.0,15,84,0.0 
+Artificer,4,37,16,3,Wizzard,4,20,13,3,Druid,4,36,16,3,Monk,4,22,12,3,Axe Beak,0.25,11,19,0.0 
+Barbarian,2,18,17,2,Sorcerer,2,15,13,2,Paladin,2,23,16,2,Wizzard,2,10,13,2,Darkling Elder,2.0,15,27,0.8939393939393939 
+Artificer,2,13,15,2,Barbarian,2,15,12,2,Fighter,2,17,18,2,Artificer,2,14,12,2,Swarm of Wasps,0.5,12,22,0.7457627118644068 
+Monk,4,39,14,3,Sorcerer,4,30,11,3,Wizzard,4,25,12,3,Artificer,4,39,16,3,Sea Horse,0.0,11,1,0.9172932330827067 
+Warlock,2,13,11,2,Cleric,2,19,13,2,Druid,2,10,12,2,Ranger,2,21,15,2,Yuan-ti Pureblood,1.0,11,40,0.8253968253968254 
+Rogue,4,28,11,3,Rogue,4,25,11,3,Warlock,4,33,13,3,Barbarian,4,50,12,3,Star Spawn Mangler,5.0,14,71,0.0 
+Fighter,5,51,12,3,Paladin,5,44,17,3,Cleric,5,25,20,3,Warlock,5,40,15,3,Steam Mephit,0.25,10,21,0.025 
+Monk,5,44,16,3,Cleric,5,36,13,3,Ranger,5,41,16,3,Artificer,5,44,14,3,Roc,11.0,15,248,0.9454545454545454 
+Fighter,4,35,17,3,Cleric,4,19,19,3,Druid,4,32,14,3,Barbarian,4,46,12,3,Pegasus,2.0,12,59,0.9621212121212122 
+Warlock,2,12,16,2,Fighter,2,16,16,2,Wizzard,2,6,12,2,Druid,2,9,12,2,Master Thief,5.0,16,84,0.0 
+Wizzard,2,12,12,2,Fighter,2,24,13,2,Wizzard,2,12,10,2,Fighter,2,19,17,2,Reef Shark,0.5,12,22,0.5671641791044776 
+Fighter,3,22,17,3,Paladin,3,28,14,3,Fighter,3,31,19,3,Wizzard,3,18,10,3,Giff,3.0,16,60,0.0 
+Sorcerer,3,20,12,3,Artificer,3,19,17,3,Monk,3,19,15,3,Sorcerer,3,15,11,3,Dimetrodon,0.25,12,19,0.0 
+Druid,4,33,14,3,Wizzard,4,16,14,3,Monk,4,35,12,3,Wizzard,4,24,11,3,Lamia,4.0,13,97,0.0 
+Sorcerer,2,10,15,2,Cleric,2,13,20,2,Warlock,2,10,13,2,Artificer,2,21,15,2,Doppelganger,3.0,14,52,0.6296296296296297 
+Paladin,3,24,17,3,Cleric,3,28,18,3,Paladin,3,36,17,3,Bard,3,25,14,3,Quadrone,1.0,16,22,0.1504424778761062 
+Wizzard,3,20,13,3,Rogue,3,26,14,3,Druid,3,29,13,3,Artificer,3,16,14,3,Gnoll Flesh Gnawer,1.0,14,22,0.0 
+Bard,4,33,13,3,Sorcerer,4,24,12,3,Ranger,4,31,17,3,Fighter,4,42,14,3,Invisible Stalker,6.0,14,104,0.4153846153846154 
+Ranger,3,26,12,3,Druid,3,29,15,3,Barbarian,3,35,16,3,Warlock,3,25,12,3,Frost Giant Everlasting One,12.0,15,189,0.0 
+Warlock,3,20,13,3,Wizzard,3,24,11,3,Monk,3,22,16,3,Artificer,3,26,18,3,Summer Eladrin,10.0,19,165,0.0 
+Barbarian,5,48,12,3,Warlock,5,39,13,3,Ranger,5,43,15,3,Fighter,5,53,13,3,Giant Toad,1.0,11,39,0.0 
+Barbarian,2,24,12,2,Ranger,2,20,15,2,Monk,2,13,15,2,Monk,2,10,13,2,Yeti,3.0,12,51,0.0 
+Ranger,5,46,13,3,Artificer,5,43,15,3,Artificer,5,25,13,3,Druid,5,31,13,3,Drow,0.25,15,13,0.5379310344827586 
+Warlock,1,9,15,2,Druid,1,7,16,2,Ranger,1,10,15,2,Druid,1,5,16,2,Blue Slaad,7.0,15,123,0.0 
+Sorcerer,5,23,12,3,Monk,5,46,14,3,Paladin,5,54,16,3,Druid,5,41,12,3,Priest,2.0,13,27,0.0 
