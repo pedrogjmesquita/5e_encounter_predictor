@@ -29,4 +29,4 @@ for i in range(len(enemies)//3):
 
 df = pd.DataFrame({'Enemy': enemy_list, 'CR': cr_list})
 
-df.to_csv('enemies.csv', index=False)
+df.to_csv('Data\enemies.csv', index=False)

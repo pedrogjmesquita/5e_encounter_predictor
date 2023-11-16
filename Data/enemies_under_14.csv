@@ -1,4 +1,4 @@
-Enemy,CR
+name,cr
 Aarakocra,0.25
 Abjurer Wizard,9.0
 Aboleth,10.0
@@ -460,6 +460,7 @@ Rug of Smothering,2.0
 Rust Monster,0.5
 Rutterkin,2.0
 Saber-Toothed Tiger,2.0
+Sacred Statue,-1.0
 Sahuagin,0.5
 Sahuagin Baron,5.0
 Sahuagin Priestess,2.0

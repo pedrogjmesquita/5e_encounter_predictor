@@ -1,0 +1,627 @@
+name,cr,hp,ac,size,type
+Aarakocra,0.25,13,12,M,humanoid
+Abjurer Wizard,9.0,104,12,M,humanoid
+Aboleth,10.0,135,17,L,aberration
+Abominable Yeti,9.0,137,15,H,monstrosity
+Acolyte,0.25,9,10,M,humanoid
+Adult Brass Dragon,13.0,172,18,H,dragon
+Adult Kruthik,2.0,39,18,M,monstrosity
+Adult Oblex,5.0,75,14,M,ooze
+Adult White Dragon,13.0,200,18,H,dragon
+Air Elemental,5.0,90,15,L,elemental
+Air Elemental Myrmidon,7.0,117,18,M,elemental
+Alhoon,10.0,150,15,M,undead
+Alkilith,11.0,168,17,M,fiend
+Allip,5.0,40,13,M,undead
+Allosaurus,2.0,51,13,L,beast
+Angry Sorrowsworn,13.0,255,18,M,monstrosity
+Animated Armor,1.0,33,18,M,construct
+Ankheg,2.0,39,14,L,monstrosity
+Ankylosaurus,3.0,68,15,H,beast
+Annis Hag,6.0,90,17,L,fey
+Ape,0.5,19,12,M,beast
+Apprentice Wizard,0.25,13,10,M,humanoid
+Arcanaloth,12.0,104,17,M,fiend
+Archdruid,12.0,154,14,M,humanoid
+Archer,3.0,75,16,M,humanoid
+Archmage,12.0,99,12,M,humanoid
+Armanite,7.0,94,16,L,fiend
+Assassin,8.0,78,15,M,humanoid
+Aurochs,2.0,38,11,L,beast
+Autumn Eladrin,10.0,165,19,M,fey
+Awakened Shrub,0.0,10,9,S,plant
+Awakened Tree,2.0,59,13,H,plant
+Axe Beak,0.25,19,11,L,beast
+Azer,2.0,39,17,M,elemental
+Babau,4.0,82,16,M,fiend
+Baboon,0.0,3,12,S,beast
+Badger,0.0,3,10,T,beast
+Balhannoth,11.0,114,17,L,aberration
+Banderhobb,5.0,84,15,L,monstrosity
+Bandit,0.125,11,12,M,humanoid
+Bandit Captain,2.0,65,15,M,humanoid
+Banshee,4.0,58,12,M,undead
+Barbed Devil,5.0,110,15,M,fiend
+Bard,2.0,44,15,M,humanoid
+Barghest,4.0,60,17,L,fiend
+Barlgura,5.0,68,15,L,fiend
+Basilisk,3.0,52,15,M,monstrosity
+Bat,0.0,1,12,T,beast
+Bearded Devil,3.0,52,13,M,fiend
+Behir,11.0,168,17,H,monstrosity
+Beholder,13.0,180,18,L,aberration
+Beholder Zombie,5.0,93,15,L,undead
+Berbalang,2.0,49,14,M,aberration
+Berserker,2.0,67,13,M,humanoid
+Bheur Hag,7.0,91,17,M,fey
+Black Abishai,7.0,58,15,M,fiend
+Black Bear,0.5,19,11,M,beast
+Black Dragon Wyrmling,2.0,33,17,M,dragon
+Black Pudding,4.0,85,7,L,ooze
+Blackguard,8.0,119,18,M,humanoid
+Blink Dog,0.25,22,13,M,fey
+Blood Hawk,0.125,7,12,S,beast
+Blue Dragon Wyrmling,3.0,52,17,M,dragon
+Blue Slaad,7.0,123,15,L,aberration
+Boar,0.25,11,11,M,beast
+Bodak,6.0,58,15,M,undead
+Boggle,0.125,18,14,S,fey
+Bone Devil,9.0,142,19,L,fiend
+Bone Naga (Guardian),4.0,58,15,L,undead
+Bone Naga (Spirit),4.0,58,15,L,undead
+Boneclaw,12.0,150,16,L,undead
+Brass Dragon Wyrmling,1.0,16,16,M,dragon
+Brontosaurus,5.0,121,15,G,beast
+Bronze Dragon Wyrmling,2.0,32,17,M,dragon
+Brown Bear,1.0,34,11,L,beast
+Bugbear,1.0,27,16,M,humanoid
+Bugbear Chief,3.0,65,17,M,humanoid
+Bulette,5.0,94,17,L,monstrosity
+Bulezau,3.0,52,14,M,fiend
+Bullywug,0.25,11,15,M,humanoid
+Cambion,5.0,82,19,M,fiend
+Camel,0.125,15,9,L,beast
+Canoloth,8.0,120,16,M,fiend
+Carrion Crawler,2.0,51,13,L,monstrosity
+Cat,0.0,2,12,T,beast
+Catoblepas,5.0,84,14,L,monstrosity
+Cave Bear,2.0,42,12,L,beast
+Cave Fisher,3.0,58,16,M,monstrosity
+Centaur,2.0,45,12,L,monstrosity
+Chain Devil,8.0,85,16,M,fiend
+Champion,9.0,143,18,M,humanoid
+Chasme,6.0,84,15,L,fiend
+Chimera,6.0,114,14,L,monstrosity
+Chitine,0.5,18,14,S,monstrosity
+Choker,1.0,13,16,S,aberration
+Choldrith,3.0,66,15,M,monstrosity
+Chuul,4.0,93,16,L,aberration
+Clay Golem,9.0,133,14,L,construct
+Cloaker,8.0,78,14,L,aberration
+Clockwork Bronze Scout,1.0,36,13,M,construct
+Clockwork Iron Cobra,4.0,91,13,M,construct
+Clockwork Oaken Bolter,5.0,117,16,M,construct
+Clockwork Stone Defender,4.0,105,16,M,construct
+Cloud Giant,9.0,200,14,H,giant
+Cloud Giant Smiling One,11.0,250,15,H,giant
+Cockatrice,0.5,27,11,S,monstrosity
+Commoner,0.0,4,10,M,humanoid
+Constrictor Snake,0.25,13,12,L,beast
+Copper Dragon Wyrmling,1.0,22,16,M,dragon
+Corpse Flower,8.0,127,12,L,plant
+Couatl,4.0,97,19,M,celestial
+Crab,0.0,2,11,T,beast
+Cranium Rat,0.0,2,12,T,aberration
+Crawling Claw,0.0,2,12,T,undead
+Crocodile,0.5,19,12,L,beast
+Cult Fanatic,2.0,33,13,M,humanoid
+Cultist,0.125,9,12,M,humanoid
+Cyclops,6.0,138,14,H,giant
+Dao,11.0,187,18,L,elemental
+Darkling,0.5,13,14,S,fey
+Darkling Elder,2.0,27,15,M,fey
+Darkmantle,0.5,22,11,S,monstrosity
+Death Dog,1.0,39,12,M,monstrosity
+Death Kiss,10.0,142,15,L,aberration
+Death Slaad,10.0,170,18,M,aberration
+Deathlock,4.0,36,12,M,undead
+Deathlock Mastermind,8.0,110,13,M,undead
+Deathlock Wight,3.0,37,12,M,undead
+Deep Gnome (Svirfneblin),0.5,16,15,S,humanoid
+Deep Rothé,0.25,13,10,M,beast
+Deep Scion,3.0,67,11,M,monstrosity
+Deer,0.0,4,13,M,beast
+Deinonychus,1.0,26,13,M,beast
+Derro,0.25,13,13,S,aberration
+Derro Savant,3.0,36,13,S,aberration
+Deva,10.0,136,17,M,celestial
+Devourer,13.0,189,16,L,undead
+Dhergoloth,7.0,119,15,M,fiend
+Dimetrodon,0.25,19,12,M,beast
+Dire Troll,13.0,172,15,H,giant
+Dire Wolf,1.0,37,14,L,beast
+Displacer Beast,3.0,85,13,L,monstrosity
+Diviner Wizard,8.0,90,12,M,humanoid
+Djinni,11.0,161,17,L,elemental
+Dolphin,0.125,11,12,M,beast
+Dolphin Delighter,3.0,27,14,M,fey
+Doppelganger,3.0,52,14,M,monstrosity
+Draegloth,7.0,123,15,L,fiend
+Draft Horse,0.25,19,10,L,beast
+Dretch,0.25,18,11,S,fiend
+Drider,6.0,123,19,L,monstrosity
+Drow,0.25,13,15,M,humanoid
+Drow Arachnomancer,13.0,162,15,M,humanoid
+Drow Elite Warrior,5.0,71,18,M,humanoid
+Drow House Captain,9.0,162,16,M,humanoid
+Drow Mage,7.0,45,12,M,humanoid
+Drow Priestess of Lolth,8.0,71,16,M,humanoid
+Drow Shadowblade,11.0,150,17,M,humanoid
+Druid,2.0,27,11,M,humanoid
+Dryad,1.0,22,11,M,fey
+Duergar,1.0,26,16,M,humanoid
+Duergar Despot,12.0,119,21,M,humanoid
+Duergar Hammerer,2.0,33,17,M,construct
+Duergar Kavalrachni,2.0,26,16,M,humanoid
+Duergar Mind Master,2.0,39,14,M,humanoid
+Duergar Screamer,3.0,38,15,M,construct
+Duergar Soulblade,1.0,27,14,M,humanoid
+Duergar Stone Guard,2.0,39,18,M,humanoid
+Duergar Warlord,6.0,75,20,M,humanoid
+Duergar Xarrorn,2.0,26,18,M,humanoid
+Duodrone,0.25,11,15,M,construct
+Dust Mephit,0.5,17,12,S,elemental
+Dybbuk,4.0,37,14,M,fiend
+Eagle,0.0,3,12,S,beast
+Earth Elemental,5.0,126,17,L,elemental
+Earth Elemental Myrmidon,7.0,127,18,M,elemental
+Efreeti,11.0,200,17,L,elemental
+Eidolon,12.0,63,9,M,undead
+Elder Oblex,10.0,115,16,H,ooze
+Elephant,4.0,76,12,H,beast
+Elk,0.25,13,10,L,beast
+Enchanter Wizard,5.0,49,12,M,humanoid
+Erinyes,12.0,153,18,M,fiend
+Ettercap,2.0,44,13,M,monstrosity
+Ettin,4.0,85,12,L,giant
+Evoker Wizard,9.0,121,12,M,humanoid
+Faerie Dragon (Blue),2.0,14,15,T,dragon
+Faerie Dragon (Green),2.0,14,15,T,dragon
+Faerie Dragon (Indigo),2.0,14,15,T,dragon
+Faerie Dragon (Orange),1.0,14,15,T,dragon
+Faerie Dragon (Red),1.0,14,15,T,dragon
+Faerie Dragon (Violet),2.0,14,15,T,dragon
+Faerie Dragon (Yellow),1.0,14,15,T,dragon
+Female Steeder,1.0,30,14,L,monstrosity
+Fire Elemental,5.0,102,13,L,elemental
+Fire Elemental Myrmidon,7.0,123,18,M,elemental
+Fire Giant,9.0,162,18,H,giant
+Fire Snake,1.0,22,14,M,elemental
+Firenewt Warlock of Imix,1.0,33,10,M,elemental
+Firenewt Warrior,0.5,27,13,M,elemental
+Flail Snail,3.0,52,16,L,elemental
+Flameskull,4.0,40,13,T,undead
+Flesh Golem,5.0,93,9,M,construct
+Flind,9.0,127,16,M,fiend
+Flumph,0.125,7,12,S,aberration
+Flying Snake,0.125,5,14,T,beast
+Flying Sword,0.25,17,17,S,construct
+Fomorian,8.0,149,14,H,giant
+Frog,0.0,1,11,T,beast
+Froghemoth,10.0,161,14,H,monstrosity
+Frost Giant,8.0,138,15,H,giant
+Frost Giant Everlasting One,12.0,189,15,H,giant
+Frost Salamander,9.0,168,17,H,elemental
+Galeb Duhr,6.0,85,16,M,elemental
+Gargoyle,2.0,52,15,M,elemental
+Gas Spore,0.5,1,5,L,plant
+Gauth,6.0,52,15,M,aberration
+Gazer,0.5,13,13,T,aberration
+Gelatinous Cube,2.0,84,6,L,ooze
+Ghast,2.0,36,13,M,undead
+Ghost,4.0,45,11,M,undead
+Ghoul,1.0,22,12,M,undead
+Giant Ape,7.0,157,12,H,beast
+Giant Badger,0.25,13,10,M,beast
+Giant Bat,0.25,22,13,L,beast
+Giant Boar,2.0,42,12,L,beast
+Giant Centipede,0.25,4,13,S,beast
+Giant Constrictor Snake,2.0,60,12,H,beast
+Giant Crab,0.125,13,15,M,beast
+Giant Crocodile,5.0,85,14,H,beast
+Giant Eagle,1.0,26,13,L,beast
+Giant Elk,2.0,42,14,H,beast
+Giant Fire Beetle,0.0,4,13,S,beast
+Giant Frog,0.25,18,11,M,beast
+Giant Goat,0.5,19,11,L,beast
+Giant Hyena,1.0,45,12,L,beast
+Giant Lizard,0.25,19,12,L,beast
+Giant Octopus,1.0,52,11,L,beast
+Giant Owl,0.25,19,12,L,beast
+Giant Poisonous Snake,0.25,11,14,M,beast
+Giant Rat,0.125,7,12,S,beast
+Giant Scorpion,3.0,52,15,L,beast
+Giant Sea Horse,0.5,16,13,L,beast
+Giant Shark,5.0,126,13,H,beast
+Giant Spider,1.0,26,14,L,beast
+Giant Strider,1.0,22,14,L,elemental
+Giant Toad,1.0,39,11,L,beast
+Giant Vulture,1.0,22,10,L,beast
+Giant Wasp,0.5,13,12,M,beast
+Giant Weasel,0.125,9,13,M,beast
+Giant Wolf Spider,0.25,11,13,M,beast
+Gibbering Mouther,2.0,67,9,M,aberration
+Giff,3.0,60,16,M,humanoid
+Girallon,4.0,59,13,L,monstrosity
+Githyanki Gish,10.0,130,17,M,humanoid
+Githyanki Kith'rak,12.0,180,18,M,humanoid
+Githyanki Knight,8.0,91,18,M,humanoid
+Githyanki Warrior,3.0,49,17,M,humanoid
+Githzerai Enlightened,10.0,112,18,M,humanoid
+Githzerai Monk,2.0,38,14,M,humanoid
+Githzerai Zerth,6.0,84,17,M,humanoid
+Glabrezu,9.0,157,17,L,fiend
+Gnoll,0.5,22,15,M,humanoid
+Gnoll Fang of Yeenoghu,4.0,65,14,M,fiend
+Gnoll Flesh Gnawer,1.0,22,14,M,monstrosity
+Gnoll Hunter,0.5,22,13,M,monstrosity
+Gnoll Pack Lord,2.0,49,15,M,humanoid
+Gnoll Witherling,0.25,11,12,M,undead
+Goat,0.0,4,10,M,beast
+Goblin,0.25,7,15,S,humanoid
+Goblin Boss,1.0,21,17,S,humanoid
+Gold Dragon Wyrmling,3.0,60,17,M,dragon
+Gorgon,5.0,114,19,L,monstrosity
+Gray Ooze,0.5,22,8,M,ooze
+Gray Render,12.0,189,19,L,monstrosity
+Gray Slaad,9.0,127,18,M,aberration
+Green Dragon Wyrmling,2.0,38,17,M,dragon
+Green Hag,3.0,82,17,M,fey
+Green Slaad,8.0,127,16,L,aberration
+Grell,3.0,55,12,M,aberration
+Grick,2.0,27,14,M,monstrosity
+Grick Alpha,7.0,75,18,L,monstrosity
+Griffon,2.0,59,12,L,monstrosity
+Grimlock,0.25,11,11,M,humanoid
+Grung,0.25,11,12,S,humanoid
+Grung Elite Warrior,2.0,49,13,S,humanoid
+Grung Wildling,1.0,27,16,S,humanoid
+Guard,0.125,11,16,M,humanoid
+Guard Drake,2.0,52,14,M,dragon
+Guardian Naga,10.0,127,18,L,monstrosity
+Gynosphinx,11.0,136,17,L,monstrosity
+Hadrosaurus,0.25,19,11,L,beast
+Half-Ogre (Ogrillon),1.0,30,12,L,giant
+Half-Red Dragon Veteran,5.0,65,18,M,humanoid
+Harpy,1.0,38,11,M,monstrosity
+Hawk,0.0,1,13,T,beast
+Hell Hound,3.0,45,15,M,fiend
+Helmed Horror,4.0,60,20,M,construct
+Hezrou,8.0,136,16,L,fiend
+Hill Giant,5.0,105,13,H,giant
+Hippogriff,1.0,19,11,L,monstrosity
+Hobgoblin,0.5,11,18,M,humanoid
+Hobgoblin Captain,3.0,39,17,M,humanoid
+Hobgoblin Devastator,4.0,45,13,M,fey
+Hobgoblin Iron Shadow,2.0,32,15,M,fey
+Hobgoblin Warlord,6.0,97,20,M,humanoid
+Homunculus,0.0,5,13,T,construct
+Hook Horror,3.0,75,15,L,monstrosity
+Horned Devil,11.0,178,18,L,fiend
+Howler,8.0,90,16,L,fiend
+Hungry Sorrowsworn,11.0,225,17,M,monstrosity
+Hunter Shark,2.0,45,12,L,beast
+Hydra,8.0,172,15,H,monstrosity
+Hydroloth,9.0,135,15,M,fiend
+Hyena,0.0,5,11,M,beast
+Ice Mephit,0.5,21,11,S,elemental
+Illusionist Wizard,3.0,44,12,M,humanoid
+Imp,1.0,10,13,T,fiend
+Incubus,4.0,66,15,M,fiend
+Intellect Devourer,2.0,21,12,T,aberration
+Invisible Stalker,6.0,104,14,M,elemental
+Jackal,0.0,3,12,S,beast
+Jackalwere,0.5,18,12,M,humanoid
+Kenku,0.25,13,13,M,humanoid
+Ki-rin,12.0,153,20,L,celestial
+Killer Whale,3.0,90,12,H,beast
+Knight,3.0,52,18,M,humanoid
+Kobold,0.125,5,12,S,humanoid
+Kobold Dragonshield,1.0,44,15,S,dragon
+Kobold Inventor,0.25,13,12,S,humanoid
+Kobold Scale Sorcerer,1.0,27,15,S,humanoid
+Korred,7.0,93,17,S,fey
+Kraken Priest,5.0,75,15,M,monstrosity
+Kruthik Hive Lord,5.0,102,20,L,monstrosity
+Kuo-toa,0.25,18,13,M,humanoid
+Kuo-toa Archpriest,6.0,97,13,M,humanoid
+Kuo-toa Monitor,3.0,65,13,M,humanoid
+Kuo-toa Whip,1.0,65,11,M,humanoid
+Lamia,4.0,97,13,L,monstrosity
+Lemure,0.0,13,7,M,fiend
+Leucrotta,3.0,67,14,L,monstrosity
+Lion,1.0,26,12,L,beast
+Lizard,0.0,2,10,T,beast
+Lizard King,4.0,78,15,M,humanoid
+Lizard Queen,4.0,78,15,M,humanoid
+Lizardfolk,0.5,22,15,M,humanoid
+Lizardfolk Shaman,2.0,27,13,M,humanoid
+Lonely Sorrowsworn,9.0,112,16,M,monstrosity
+Lost Sorrowsworn,7.0,78,15,M,monstrosity
+Mage,6.0,40,12,M,humanoid
+Magma Mephit,0.5,22,11,S,elemental
+Magmin,0.5,9,14,S,elemental
+Male Steeder,0.25,13,12,M,monstrosity
+Mammoth,6.0,126,13,H,beast
+Manes,0.125,9,9,S,fiend
+Manticore,3.0,68,14,L,monstrosity
+Marid,11.0,229,17,L,elemental
+Martial Arts Adept,3.0,60,16,M,humanoid
+Master Thief,5.0,84,16,M,humanoid
+Mastiff,0.125,5,12,M,beast
+Maurezhi,7.0,88,15,M,fiend
+Maw Demon,1.0,33,13,M,fiend
+Meazel,1.0,35,13,M,monstrosity
+Medusa,6.0,127,15,M,monstrosity
+Meenlock,2.0,31,15,S,fey
+Merfolk,0.125,11,11,M,humanoid
+Merregon,4.0,45,16,M,fiend
+Merrenoloth,3.0,40,13,M,fiend
+Merrow,2.0,45,13,L,monstrosity
+Mezzoloth,5.0,75,18,M,fiend
+Mimic,2.0,58,12,M,monstrosity
+Mind Flayer,7.0,71,15,M,aberration
+Mind Flayer Arcanist,8.0,71,15,M,aberration
+Mindwitness,5.0,75,15,L,aberration
+Minotaur,3.0,76,14,L,monstrosity
+Minotaur Skeleton,2.0,67,12,L,undead
+Monodrone,0.125,5,15,M,construct
+Morkoth,11.0,165,17,L,aberration
+Mouth of Grolantor,6.0,105,14,H,giant
+Mud Mephit,0.25,27,11,S,elemental
+Mule,0.125,11,10,M,beast
+Mummy,3.0,58,11,M,undead
+Myconid Adult,0.5,22,12,M,plant
+Myconid Sovereign,2.0,60,13,L,plant
+Myconid Sprout,0.0,7,10,S,plant
+Nalfeshnee,13.0,184,18,L,fiend
+Narzugon,13.0,112,20,M,fiend
+Necromancer Wizard,9.0,110,12,M,humanoid
+Needle Blight,0.25,11,12,M,plant
+Neogi,3.0,33,15,S,aberration
+Neogi Hatchling,0.125,7,11,T,aberration
+Neogi Master,4.0,71,15,M,aberration
+Neothelid,13.0,232,16,G,aberration
+Night Hag,5.0,112,17,M,fiend
+Nightmare,3.0,68,13,L,fiend
+Nilbog,1.0,7,13,S,fey
+Noble,0.125,9,15,M,humanoid
+Nothic,2.0,45,15,M,aberration
+Nupperibo,0.5,11,13,M,fiend
+Nycaloth,9.0,123,18,L,fiend
+Oblex Spawn,0.25,18,13,T,ooze
+Ochre Jelly,2.0,45,8,L,ooze
+Octopus,0.0,3,12,S,beast
+Ogre,2.0,59,11,L,giant
+Ogre Battering Ram,4.0,76,11,L,giant
+Ogre Bolt Launcher,2.0,59,13,L,giant
+Ogre Chain Brute,3.0,59,11,L,giant
+Ogre Howdah,2.0,59,15,L,giant
+Ogre Zombie,2.0,85,8,L,undead
+Oinoloth,12.0,119,17,M,fiend
+Oni,7.0,110,16,L,giant
+Orc,0.5,15,13,M,humanoid
+Orc Eye of Gruumsh,2.0,45,16,M,humanoid
+Orc War Chief,4.0,93,16,M,humanoid
+Orog,2.0,42,18,M,humanoid
+Orthon,10.0,105,17,L,fiend
+Otyugh,5.0,114,14,L,aberration
+Owl,0.0,1,11,T,beast
+Owlbear,3.0,59,13,L,monstrosity
+Ox,0.25,15,10,L,beast
+Panther,0.25,13,12,M,beast
+Pegasus,2.0,59,12,L,celestial
+Pentadrone,2.0,32,16,L,construct
+Peryton,2.0,33,13,M,monstrosity
+Phase Spider,3.0,32,13,L,monstrosity
+Piercer,0.5,22,15,M,monstrosity
+Pixie,0.25,1,15,T,fey
+Plesiosaurus,2.0,68,13,L,beast
+Poisonous Snake,0.125,2,13,T,beast
+Polar Bear,2.0,42,12,L,beast
+Poltergeist,2.0,22,12,M,undead
+Pony,0.125,11,10,M,beast
+Priest,2.0,27,13,M,humanoid
+Pseudodragon,0.25,7,13,T,dragon
+Pteranodon,0.25,13,13,M,beast
+Quadrone,1.0,22,16,M,construct
+Quaggoth,2.0,45,13,M,humanoid
+Quaggoth Spore Servant,1.0,45,13,M,plant
+Quaggoth Thonot,3.0,45,13,M,humanoid
+Quasit,1.0,7,13,T,fiend
+Quetzalcoatlus,2.0,30,13,H,beast
+Quickling,1.0,10,16,T,fey
+Quipper,0.0,1,13,T,beast
+Rakshasa,13.0,110,16,M,fiend
+Rat,0.0,1,10,T,beast
+Raven,0.0,1,12,T,beast
+Red Dragon Wyrmling,4.0,75,17,M,dragon
+Red Slaad,5.0,93,14,L,aberration
+Redcap,3.0,45,14,S,fey
+Reef Shark,0.5,22,12,M,beast
+Remorhaz,11.0,195,17,H,monstrosity
+Revenant,5.0,136,13,M,undead
+Rhinoceros,2.0,45,11,L,beast
+Riding Horse,0.25,13,10,L,beast
+Roc,11.0,248,15,G,monstrosity
+Roper,5.0,93,20,L,monstrosity
+Rot Troll,9.0,138,16,L,giant
+Rug of Smothering,2.0,33,12,L,construct
+Rust Monster,0.5,27,14,M,monstrosity
+Rutterkin,2.0,37,12,M,fiend
+Saber-Toothed Tiger,2.0,52,12,L,beast
+Sacred Statue,-1.0,95,19,L,construct
+Sahuagin,0.5,22,12,M,humanoid
+Sahuagin Baron,5.0,76,16,L,humanoid
+Sahuagin Priestess,2.0,33,12,M,humanoid
+Salamander,5.0,90,15,L,elemental
+Satyr,0.5,31,14,M,fey
+Scarecrow,1.0,36,11,M,construct
+Scorpion,0.0,1,11,T,beast
+Scout,0.5,16,13,M,humanoid
+Sea Hag,2.0,52,14,M,fey
+Sea Horse,0.0,1,11,T,beast
+Sea Spawn,1.0,32,11,M,monstrosity
+Shadar-kai Gloom Weaver,9.0,104,14,M,humanoid
+Shadar-kai Shadow Dancer,7.0,71,15,M,humanoid
+Shadar-kai Soul Monger,11.0,136,15,M,humanoid
+Shadow,0.5,16,12,M,undead
+Shadow Demon,4.0,66,13,M,fiend
+Shadow Mastiff,2.0,33,12,M,monstrosity
+Shadow Mastiff Alpha,3.0,44,12,M,monstrosity
+Shambling Mound,5.0,136,15,L,plant
+Shield Guardian,7.0,142,17,L,construct
+Shoosuva,8.0,136,14,L,fiend
+Shrieker,0.0,13,5,M,plant
+Silver Dragon Wyrmling,2.0,45,17,M,dragon
+Skeleton,0.25,13,13,M,undead
+Skulk,0.5,18,14,M,monstrosity
+Slaad Tadpole,0.125,10,12,T,aberration
+Slithering Tracker,3.0,39,14,M,ooze
+Smoke Mephit,0.25,22,12,S,elemental
+Spawn of Kyuss,5.0,76,10,M,undead
+Spectator,3.0,39,14,M,aberration
+Specter,1.0,22,12,M,undead
+Spider,0.0,1,12,T,beast
+Spined Devil,2.0,22,13,S,fiend
+Spirit Naga,8.0,75,15,L,monstrosity
+Spirit Troll,11.0,130,17,L,giant
+Spring Eladrin,10.0,165,19,M,fey
+Sprite,0.25,2,15,T,fey
+Spy,1.0,27,12,M,humanoid
+Star Spawn Grue,0.25,17,11,S,aberration
+Star Spawn Hulk,10.0,136,16,L,aberration
+Star Spawn Mangler,5.0,71,14,M,aberration
+Star Spawn Seer,13.0,153,17,M,aberration
+Steam Mephit,0.25,21,10,S,elemental
+Stegosaurus,4.0,76,13,H,beast
+Stench Kow,0.5,15,10,L,fiend
+Stirge,0.125,2,14,T,beast
+Stone Cursed,1.0,19,17,M,construct
+Stone Giant,7.0,126,17,H,giant
+Stone Giant Dreamwalker,10.0,161,18,H,giant
+Stone Golem,10.0,178,17,L,construct
+Storm Giant,13.0,230,16,H,giant
+Succubus,4.0,66,15,M,fiend
+Summer Eladrin,10.0,165,19,M,fey
+Swarm of Bats,0.25,22,12,M,beast
+Swarm of Beetles,0.5,22,12,M,beast
+Swarm of Centipedes,0.5,22,12,M,beast
+Swarm of Cranium Rats,5.0,76,12,M,aberration
+Swarm of Insects,0.5,22,12,M,beast
+Swarm of Poisonous Snakes,2.0,36,14,M,beast
+Swarm of Quippers,1.0,28,13,M,beast
+Swarm of Rats,0.25,24,10,M,beast
+Swarm of Ravens,0.25,24,12,M,beast
+Swarm of Rot Grubs,0.5,22,8,M,beast
+Swarm of Spiders,0.5,22,12,M,beast
+Swarm of Wasps,0.5,22,12,M,beast
+Swashbuckler,3.0,66,17,M,humanoid
+Sword Wraith Commander,8.0,127,18,M,undead
+Sword Wraith Warrior,3.0,45,16,M,undead
+Tanarukk,5.0,95,14,M,fiend
+Thorny Vegepygmy,1.0,27,14,M,plant
+Thri-kreen,1.0,33,15,M,humanoid
+Thug,0.5,32,11,M,humanoid
+Tiger,1.0,37,12,L,beast
+Tlincalli,5.0,85,15,L,monstrosity
+Tortle,0.25,22,17,M,humanoid
+Tortle Druid,2.0,33,17,M,humanoid
+Transmuter Wizard,5.0,49,12,M,humanoid
+Trapper,3.0,68,13,L,monstrosity
+Treant,9.0,138,16,H,plant
+Tribal Warrior,0.125,11,12,M,humanoid
+Triceratops,5.0,95,13,H,beast
+Tridrone,0.5,16,15,M,construct
+Troglodyte,0.25,13,11,M,humanoid
+Troll,5.0,84,15,L,giant
+Twig Blight,0.125,4,13,S,plant
+Tyrannosaurus Rex,8.0,136,13,H,beast
+Ulitharid,9.0,127,15,L,aberration
+Ultroloth,13.0,153,19,M,fiend
+Umber Hulk,5.0,93,18,L,monstrosity
+Unicorn,5.0,67,12,L,celestial
+Vampire,13.0,144,16,M,undead
+Vampire Spawn,5.0,82,15,M,undead
+Vampiric Mist,3.0,30,13,M,undead
+Vargouille,1.0,18,12,T,fiend
+Vegepygmy,0.25,13,13,S,plant
+Vegepygmy Chief,2.0,33,14,S,plant
+Velociraptor,0.25,10,13,T,beast
+Venom Troll,7.0,94,15,L,giant
+Veteran,3.0,58,17,M,humanoid
+Vine Blight,0.5,26,12,M,plant
+Violet Fungus,0.25,18,5,M,plant
+Vrock,6.0,104,15,L,fiend
+Vulture,0.0,5,10,M,beast
+War Priest,9.0,117,18,M,humanoid
+Warhorse,0.5,19,11,L,beast
+Warhorse Skeleton,0.5,22,13,L,undead
+Warlock of the Archfey,4.0,67,13,M,humanoid
+Warlock of the Fiend,7.0,78,13,M,humanoid
+Warlock of the Great Old One,6.0,91,13,M,humanoid
+Warlord,12.0,229,18,M,humanoid
+Wastrilith,13.0,157,18,L,fiend
+Water Elemental,5.0,114,14,L,elemental
+Water Elemental Myrmidon,7.0,127,18,M,elemental
+Water Weird,3.0,58,13,L,elemental
+Weasel,0.0,1,13,T,beast
+Werebear,5.0,135,10,M,humanoid
+Wereboar,4.0,78,10,M,humanoid
+Wererat,2.0,33,12,M,humanoid
+Weretiger,4.0,120,12,M,humanoid
+Werewolf,3.0,58,11,M,humanoid
+White Abishai,6.0,68,15,M,fiend
+White Dragon Wyrmling,2.0,32,16,M,dragon
+Wight,3.0,45,14,M,undead
+Will-o'-Wisp,2.0,22,19,T,undead
+Winged Kobold,0.25,7,13,S,humanoid
+Winter Eladrin,10.0,165,19,M,fey
+Winter Wolf,3.0,75,13,L,monstrosity
+Wolf,0.25,11,13,M,beast
+Wood Woad,5.0,75,18,M,plant
+Worg,0.5,26,13,L,monstrosity
+Wraith,5.0,67,13,M,undead
+Wretched Sorrowsworn,0.25,10,15,S,monstrosity
+Wyvern,6.0,110,13,L,dragon
+Xorn,5.0,73,19,M,elemental
+Xvart,0.125,7,13,S,monstrosity
+Xvart Warlock of Raxivort,1.0,22,12,S,monstrosity
+Yagnoloth,11.0,147,17,L,fiend
+Yeth Hound,4.0,51,14,L,fey
+Yeti,3.0,51,12,L,monstrosity
+Yochlol,10.0,136,15,M,fiend
+Young Black Dragon,7.0,127,18,L,dragon
+Young Blue Dragon,9.0,152,18,L,dragon
+Young Brass Dragon,6.0,110,17,L,dragon
+Young Bronze Dragon,8.0,142,18,L,dragon
+Young Copper Dragon,7.0,119,17,L,dragon
+Young Gold Dragon,10.0,178,18,L,dragon
+Young Green Dragon,8.0,136,18,L,dragon
+Young Kruthik,0.125,9,16,S,monstrosity
+Young Red Dragon,10.0,178,18,L,dragon
+Young Red Shadow Dragon,13.0,178,18,L,dragon
+Young Remorhaz,5.0,93,14,L,monstrosity
+Young Silver Dragon,9.0,168,18,L,dragon
+Young White Dragon,6.0,133,17,L,dragon
+Yuan-ti Abomination,7.0,127,15,L,monstrosity
+Yuan-ti Anathema,12.0,189,16,H,monstrosity
+Yuan-ti Broodguard,2.0,45,14,M,monstrosity
+Yuan-ti Malison (Type 1),3.0,66,12,M,monstrosity
+Yuan-ti Malison (Type 2),3.0,66,12,M,monstrosity
+Yuan-ti Malison (Type 3),3.0,66,12,M,monstrosity
+Yuan-ti Mind Whisperer,4.0,71,14,M,monstrosity
+Yuan-ti Nightmare Speaker,4.0,71,14,M,monstrosity
+Yuan-ti Pit Master,5.0,88,14,M,monstrosity
+Yuan-ti Pureblood,1.0,40,11,M,humanoid
+Zombie,0.25,22,8,M,undead
