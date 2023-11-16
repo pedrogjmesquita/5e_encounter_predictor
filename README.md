@@ -37,11 +37,15 @@ The dataset is a csv file with 100.000 rows and _ columns, with the following co
 |$P_i$ _armour_class|The armour class of the respective player, $1\le i\le 5$ (``integer``)|
 |$P_i$ _avg_save|The value of the average saving throw of the respective player, $1\le i\le 5$ (``integer``)|
 |Players_level|The level of the party (``integer``)|
+|Party_total_hp|The total hp of the party combined|
 |Monster_name|Name of the monster (``string``)|
+|Monster_ac|The armour class of the monster (``integer``)|
+|Monster_size|The size of the monster *(T,S,M,L,H,G)* (``string``)|
+|Monster_type|The type of the monster (``string``)|
 |N_monsters|Number of monsters in the encounter (``integer``)|
 |Monster_cr_rating|The value of the monster's Chalenge Rating (``float``)|
 |Monster_hp|The total hitpoints of the monster (``integer``)|
-|$P_i$ _remaining_hp|The total hitpoints remained of the respective player after the encounter, $1\le i\le 5$ (``integer``)|
+|Party_remaining_hp|The total hitpoints remained for the whole party after the encounter, $1\le i\le 5$ (``integer``)|
 |Encounter_difficulty|The difficulty of the encounter (``string``)|
 
 ### Inputs/Outputs
@@ -55,6 +59,9 @@ Inputs
 - Number of monsters
 - Monster CR
 - Monster hitpoints
+- Monster armour class
+- Monster size
+- Monster type
 
 Outputs
 - Encounter difficulty class
