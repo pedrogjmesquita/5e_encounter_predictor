@@ -28,7 +28,7 @@ hitdice = {
 
 armour_classes_range = {
     "Artificer": [12, 18],
-    "Barbarian": [10, 16],
+    "Barbarian": [12, 17],
     "Bard": [12, 16],
     "Cleric": [12, 20],
     "Druid": [11, 16],
