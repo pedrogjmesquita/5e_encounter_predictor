@@ -3,6 +3,7 @@ from time import sleep
 from constants import *
 from selenium.webdriver.common.by import By
 from constants import hitdice, armour_classes_range, classes
+from pandas import read_csv
 
 class PageControl:
     def addPlayer(driver, player):
@@ -37,8 +38,8 @@ class PageControl:
         # confirm player
         driver.find_element(By.XPATH, add_player_ok_button).click()
 
-    # def addEnemie(driver, enemie):
-
+    def addEnemie(driver, enemie):
+        pass
 
     def creatureAddedLog(creature):
         print(f"Adicionado um {creature['class']} de nível {creature['level']} com {creature['hitpoints']} pontos de vida e armour class de {creature['armour_class']}")
@@ -82,6 +83,23 @@ class Players():
 
 class Enemies():
     def __init__(self):
-        self.enemies = []
-        self.create_enemies()
+        self.create_enemie()
+        self.num_enemies = self.set_num_enemies()
+        print(f"Peguei {self.num_enemies} {self.name} de CR {self.cr} com {self.hp} pontos de vida e armour class de {self.ac}")       
+    
+    def create_enemie(self):
+        df = read_csv('Data/enemies_under_14_final.csv')
+        random_enemy = randint(0, len(df['name'])-1)
+        self.name = df['name'][random_enemy]
+        self.cr = df['cr'][random_enemy]
+        self.hp = df['hp'][random_enemy]
+        self.ac = df['ac'][random_enemy]
 
+    def set_num_enemies(self):
+        num_enemies = 1
+        treshhold = randint(0,20)
+        if(self.cr == 0): 
+            return 10
+        while(self.cr*num_enemies < treshhold):
+            num_enemies += 1
+        return num_enemies
