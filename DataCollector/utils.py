@@ -43,7 +43,9 @@ class PageControl:
         driver.find_element(By.XPATH, add_enemy).click()
     
         # set enemy name
-        driver.find_element(By.XPATH, enemy_name_input).send_keys(enemy['name'])
+        name_field = driver.find_element(By.XPATH, enemy_name_input)
+        name_field.clear()
+        name_field.send_keys(enemy['name'])
 
         # click searched enemy
         driver.find_element(By.XPATH, select_searched_enemy).click()    
@@ -56,17 +58,6 @@ class PageControl:
         num_field.clear()
         num_field.send_keys(enemy['num_enemies'])
 
-    def creatureAddedLog(creature):
-        print(f"Adicionado um {creature['class']} de nível {creature['level']} com {creature['hitpoints']} pontos de vida e armour class de {creature['armour_class']}")
-
-    def getResults(driver):
-        raw_result_set = ''
-        for i in range(1,10):
-            try:
-                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i}]')
-            except:
-                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i-1}]')
-                break
 
 
 class Players():
@@ -150,3 +141,49 @@ class Enemies():
             return [3,12]
         else:
             return [4,18]
+
+class ResultHandler:
+    def getResults(driver,num_players):
+        raw_result_set = ''
+        for i in range(1,10):
+            try:
+                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i}]')
+            except:
+                raw_result_set = driver.find_element(By.XPATH, f'//*[@id="__next"]/main/div[1]/div[2]/div[2]/div[{i-1}]')
+                break
+        result_set = ResultHandler.parseResults(raw_result_set.text, num_players)
+        print(ResultHandler.lifeFraction(result_set))
+
+
+    def parseResults(raw_result_set, num_players):
+        raw_players_life = []
+        raw_result_set = raw_result_set.split('\n')
+        for i in range(num_players):
+            raw_players_life.append(raw_result_set[2*i+1])
+        return raw_players_life
+        
+    def lifeFraction(lifes:list):
+        remaining_life = 0
+        for life in lifes:
+            life = life.split('/')
+            if '+' in life[0]:
+                life[0] = ResultHandler.handleLifeWithModifier(life[0])
+            remaining_life += int(life[0])
+        total_life = 0
+        for life in lifes:
+            life = life.split('/')
+            if '+' in life[1]:
+                life[1] = ResultHandler.handleLifeWithModifier(life[1])
+            total_life += int(life[1])
+        return f'{remaining_life}/{total_life}'
+    
+    def handleLifeWithModifier(life):
+        if '+' in life:
+            return str(life.split('+')[0] + life.split('+')[1])
+        else:
+            return str(life.split('-')[0] - life.split('-')[1])
+
+
+def creatureAddedLog(creature):
+    print(f"Adicionado um {creature['class']} de nível {creature['level']} com {creature['hitpoints']} pontos de vida e armour class de {creature['armour_class']}")
+

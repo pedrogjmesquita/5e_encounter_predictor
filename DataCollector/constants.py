@@ -61,3 +61,4 @@ enemy_name_input = '//*[@id="__next"]/main/div[1]/div[2]/div[2]/div/div[2]/div/s
 select_searched_enemy = '//*[@id="__next"]/main/div[1]/div[2]/div[2]/div/div[2]/div/div/div[2]/button[1]'
 add_enemy_ok_button = '//*[@id="__next"]/main/div[1]/div[2]/div[2]/div/div[3]/button[1]'
 num_enemy_input = '//*[@id="__next"]/main/div[1]/div[2]/div[1]/div[2]/div[1]/div/span[2]/input'
+reset_button = '//*[@id="__next"]/main/div[1]/div[1]/div[2]/div[2]/button[1]'
