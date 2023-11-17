@@ -1,3 +1,5 @@
+# This file contains all the constants used in the project
+
 hitdice = {
     'Artificer': 8,
     'Barbarian': 12,
@@ -45,6 +47,8 @@ classes = [
     "Warlock",
     "Wizzard"
 ]
+
+
 
 accept_cookies_button = '//*[@id="__next"]/main/div[2]/div/button[1]'
 add_player_button = '//*[@id="__next"]/main/div[1]/div[1]/button'

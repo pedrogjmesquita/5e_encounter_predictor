@@ -1,8 +1,10 @@
-from time import sleep
+import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from constants import accept_cookies_button
-import pandas as pd
+
+from time import sleep
+
+from utils.constants import accept_cookies_button
 
 
 # create a new Chrome browser instance
