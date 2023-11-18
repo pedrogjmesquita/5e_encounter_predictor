@@ -39,7 +39,7 @@ class PageControl:
         avg_save_field.send_keys(player["avg_save"])
 
         # confirm player
-        driver.find_element(By.XPATH, ADD_ENEMY_OK_BUTTON).click()
+        driver.find_element(By.XPATH, ADD_PLAYER_OK_BUTTON).click()
 
 
     def addEnemies(driver:webdriver, enemy:dict):

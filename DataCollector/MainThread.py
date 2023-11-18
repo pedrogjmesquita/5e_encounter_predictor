@@ -7,18 +7,17 @@ from utils.Players import Players
 from utils.Enemies import Enemies
 from utils.PageControl import PageControl
 from utils.ResultHandler import ResultHandler
-from utils.constants import accept_cookies_button, reset_button
+from utils.constants import ACCEPT_COOKIES_BUTTON, RESET_BUTTON
 
 def execute():
     '''
     main function
     '''
     # create a new Edge browser instance
-    # options = webdriver.EdgeOptions()
-    # options.add_argument("--headless")
-    # driver = webdriver.Edge(options=options)
+    options = webdriver.EdgeOptions()
+    options.add_argument("--headless")
+    driver = webdriver.Edge(options=options)
 
-    driver = webdriver.Edge()
 
     
 
@@ -27,7 +26,7 @@ def execute():
     time.sleep(3)
 
     # accept cookies
-    driver.find_element(By.XPATH, accept_cookies_button).click()
+    driver.find_element(By.XPATH, ACCEPT_COOKIES_BUTTON).click()
 
     # main scrapping loop
     while(True):
@@ -48,7 +47,6 @@ def execute():
         # add the enemies to the website
         PageControl.addEnemies(driver, enemies.enemies)
 
-        time.sleep(10)
         # get the results from the simulation
         life_results = ResultHandler.getResults(driver, 4)
 
@@ -56,10 +54,8 @@ def execute():
         ResultHandler.writeResults(players.players, enemies, life_results)
         
         # reset the website, getting ready for the next loop
-        driver.find_element(By.XPATH, reset_button).click()
+        driver.find_element(By.XPATH, RESET_BUTTON).click()
 
         
     # close the browser
     driver.quit()
-
-execute()

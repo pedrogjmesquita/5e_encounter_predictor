@@ -32,15 +32,16 @@ class ResultHandler:
         for i in range(num_players):
             raw_players_life.append(raw_result_set[2*i+1])
         return raw_players_life
-        
+       
+
     def lifeFraction(lifes:list):
         '''
         convert the hp from fractions in string form ("x/y") to a int, and sum them up
         I: lifes: list<string>, the life of each player
         O: life_fraction: string, the fraction of life remaining
         '''
-        remaining_life = 0
-        total_life = 0
+        top_sum = 0
+        bottom_sum = 0
         try:
             for life in lifes:
                 
@@ -48,12 +49,16 @@ class ResultHandler:
                     life = ResultHandler.handleLifeWithModifier(life)
 
                 life = life.split('/')
-                remaining_life += int(life[0])
-                total_life += int(life[1])
+                x_i = int(life[0])
+                y_i = int(life[1])
+
+                top_sum += x_i/(y_i**2)
+                bottom_sum += 1/(y_i)
+
         except:
-            print(lifes)
+            print("READING ERROR...")
             sleep(10000)
-        return f'{remaining_life}/{total_life}'
+        return top_sum/bottom_sum
     
     def handleLifeWithModifier(life):
         '''
@@ -61,7 +66,6 @@ class ResultHandler:
         I: life: string, the life of the player ("x/y+z")
         O: life: string, the life of the player ("x+z/y")
         '''
-        
         life = life.split('/')
         top_life = int(life[0])
         bottom_life = int(life[1].split('+')[0])
@@ -81,14 +85,14 @@ class ResultHandler:
         I: players: list<dict>, the list of players; enemies: dict, the enemies; life_results: string, the fraction of life remaining
         O: None
         '''
-
-        life_fraction = float(life_results.split('/')[0])/float(life_results.split('/')[1])
         result = ''
         for player in players:
             result += f'{player["class"]},{player["level"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
 
         with open('results.csv', 'a') as f:
-            f.write(f'{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_fraction} \n')
+            f.write(f'{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_results}\n')
             f.close()
+        
+        print(f'{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_results}\n')
 
 

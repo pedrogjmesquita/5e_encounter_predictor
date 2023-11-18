@@ -2,7 +2,7 @@ from pandas import read_csv
 
 from random import randint
 
-from utils.constants import MAX_CR_PER_LEVEL
+from utils.constants import MAX_CR_PER_LEVEL, MAX_NUM_OF_ENEMIES
 
 
 class Enemies():
@@ -31,10 +31,9 @@ class Enemies():
 
     def get_random_enemy(self,df):
         cr = 99
-        while(cr != MAX_CR_PER_LEVEL[self.players_level-1]):
+        while(cr >= MAX_CR_PER_LEVEL[self.players_level-1]):
             random_enemy = randint(0, len(df['name'])-1)
             cr = df['cr'][random_enemy]
-        print(f'escolhido {df["name"][random_enemy]} com CR {df["cr"][random_enemy]}')
         return random_enemy
 
     # sets the number of enemies based on the players level and the enemies CR
@@ -44,7 +43,7 @@ class Enemies():
         treshhold = randint(limits[0], limits[1])
         if(self.cr <= 0.5): 
             return 10
-        while(self.cr*num_enemies < treshhold and num_enemies < 15):
+        while(self.cr*num_enemies < treshhold and num_enemies < MAX_NUM_OF_ENEMIES):
             num_enemies += 1
         return num_enemies
     
@@ -57,10 +56,10 @@ class Enemies():
         elif(self.players_level == 2):
             return [1,5]
         elif(self.players_level == 3):
-            return [2,10]
+            return [1,10]
         elif(self.players_level == 4):
-            return [3,12]
+            return [1,12]
         else:
-            return [4,18]
+            return [1,18]
         
     
