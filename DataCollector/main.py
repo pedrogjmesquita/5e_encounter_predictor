@@ -2,8 +2,10 @@ import threading
 
 from MainThread import execute
 
-for _ in range(8):
+
+for i in range(4):
     thread = threading.Thread(target=execute)
     thread.start()
     print(f'New thread started: {thread.name}')
+
 

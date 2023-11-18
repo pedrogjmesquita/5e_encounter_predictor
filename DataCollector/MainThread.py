@@ -14,9 +14,11 @@ def execute():
     main function
     '''
     # create a new Edge browser instance
-    options = webdriver.EdgeOptions()
-    options.add_argument("--headless")
-    driver = webdriver.Edge(options=options)
+    # options = webdriver.EdgeOptions()
+    # options.add_argument("--headless")
+    # driver = webdriver.Edge(options=options)
+
+    driver = webdriver.Edge()
 
     
 
@@ -30,8 +32,6 @@ def execute():
     # main scrapping loop
     while(True):
 
-        st = time.time()
-
         # create the PCs
         players = Players(4)
 
@@ -39,20 +39,21 @@ def execute():
         for player in players.players:
             PageControl.addPlayer(driver, player)
 
+        # time.sleep(10)
+
         # create the enemies
         enemies = Enemies(players.players[0]['level'])
+
         
         # add the enemies to the website
         PageControl.addEnemies(driver, enemies.enemies)
 
+        time.sleep(10)
         # get the results from the simulation
         life_results = ResultHandler.getResults(driver, 4)
 
         # write the results to a file
         ResultHandler.writeResults(players.players, enemies, life_results)
-        
-        et = time.time()
-        print(f"Time elapsed: {et - st}")
         
         # reset the website, getting ready for the next loop
         driver.find_element(By.XPATH, reset_button).click()
@@ -60,3 +61,5 @@ def execute():
         
     # close the browser
     driver.quit()
+
+execute()

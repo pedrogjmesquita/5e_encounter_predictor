@@ -88,7 +88,7 @@ class ResultHandler:
             result += f'{player["class"]},{player["level"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
 
         with open('results.csv', 'a') as f:
-            f.write(f'{result}{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_fraction} \n')
+            f.write(f'{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_fraction} \n')
             f.close()
 
 

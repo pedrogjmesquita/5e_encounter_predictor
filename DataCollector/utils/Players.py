@@ -1,6 +1,6 @@
 from random import randint
 
-from utils.constants import classes, hitdice, armour_classes_range
+from utils.constants import CLASSES, HITDICE, ARMOUR_CLASSES_RANGE
 
 
 class Players:
@@ -30,7 +30,7 @@ class Players:
         O: player: dict, the player
         '''
         player = {
-            "class": classes[randint(0,12)],
+            "class": CLASSES[randint(0,12)],
             "level": self.players_level,
             "hitpoints": None,
             "armour_class":  None,
@@ -46,7 +46,7 @@ class Players:
         '''
         for player in players:
             modifier = randint(0, 3)
-            hitdie = hitdice[player["class"]]
+            hitdie = HITDICE[player["class"]]
             rolled_life = 0
             for i in range(player["level"]):
                 dice_roll = randint(hitdie/2 , hitdie)
@@ -60,4 +60,4 @@ class Players:
         O: None        
         '''
         for player in players:
-            player["armour_class"] = randint(armour_classes_range[player["class"]][0], armour_classes_range[player["class"]][1])
+            player["armour_class"] = randint(ARMOUR_CLASSES_RANGE[player["class"]][0], ARMOUR_CLASSES_RANGE[player["class"]][1])
