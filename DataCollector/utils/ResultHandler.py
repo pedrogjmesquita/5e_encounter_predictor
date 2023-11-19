@@ -57,7 +57,7 @@ class ResultHandler:
 
         except:
             print("READING ERROR...")
-            sleep(10000)
+            return -1
         return top_sum/bottom_sum
     
     def handleLifeWithModifier(life):

@@ -52,14 +52,14 @@ class Enemies():
         if(self.cr == MAX_CR_PER_LEVEL[self.players_level-1]):
             return [1,1]
         if(self.players_level == 1):
-            return [0,4]
+            return [0,3]
         elif(self.players_level == 2):
-            return [1,5]
+            return [1,4]
         elif(self.players_level == 3):
-            return [1,10]
+            return [1,9]
         elif(self.players_level == 4):
             return [1,12]
         else:
-            return [1,18]
+            return [1,19]
         
     

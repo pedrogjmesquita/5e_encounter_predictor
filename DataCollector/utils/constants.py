@@ -1,6 +1,6 @@
 # This file contains all the constants used in the project
 
-MAX_NUM_OF_ENEMIES = 15
+MAX_NUM_OF_ENEMIES = 12
 
 HITDICE = {
     'Artificer': 8,
@@ -51,9 +51,9 @@ CLASSES = [
 ]
 
 MAX_CR_PER_LEVEL = [
-    5,
+    4,
+    7,
     8,
-    9,
     10,
     13
 ]
