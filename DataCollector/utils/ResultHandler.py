@@ -2,6 +2,8 @@ from selenium.webdriver.common.by import By
 
 from time import sleep
 
+from utils.constants import WRITING_FILE
+
 
 class ResultHandler:
 
@@ -89,10 +91,11 @@ class ResultHandler:
         for player in players:
             result += f'{player["class"]},{player["level"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
 
-        with open('results_v5.csv', 'a') as f:
-            f.write(f'\n{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{life_results}')
+        with open(WRITING_FILE, 'a') as f:
+            result += f'{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{enemies.type},{life_results}'
+            f.write(f'\n{result}')
             f.close()
         
-        print(f'{result}{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{enemies.type},{life_results}\n')
+        print(result)
 
 

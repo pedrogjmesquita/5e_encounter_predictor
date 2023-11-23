@@ -1,5 +1,7 @@
 # This file contains all the constants used in the project
 
+WRITING_FILE = 'Data/results_v6.csv'
+
 MAX_NUM_OF_ENEMIES = 10
 
 HITDICE = {
