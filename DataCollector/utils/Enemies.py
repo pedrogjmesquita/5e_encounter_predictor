@@ -28,6 +28,7 @@ class Enemies():
         self.cr = df['cr'][random_enemy]
         self.hp = df['hp'][random_enemy]
         self.ac = df['ac'][random_enemy]
+        self.type = df['type'][random_enemy]
 
     def get_random_enemy(self,df):
         cr = 99
@@ -52,7 +53,7 @@ class Enemies():
         if(self.cr == MAX_CR_PER_LEVEL[self.players_level-1]):
             return [1,1]
         if(self.players_level == 1):
-            return [0,3]
+            return [0,2]
         elif(self.players_level == 2):
             return [1,4]
         elif(self.players_level == 3):
@@ -60,6 +61,6 @@ class Enemies():
         elif(self.players_level == 4):
             return [1,12]
         else:
-            return [1,19]
+            return [1,20]
         
     

@@ -58,7 +58,7 @@ def execute():
             driver.find_element(By.XPATH, RESET_BUTTON).click()
         except:
             print("ERROR...")
-            pass
+            break
 
     # close the browser
     driver.quit()

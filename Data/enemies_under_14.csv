@@ -4,7 +4,9 @@ Abjurer Wizard,9.0
 Aboleth,10.0
 Abominable Yeti,9.0
 Acolyte,0.25
+Adult Black Dragon,14.0
 Adult Brass Dragon,13.0
+Adult Copper Dragon,14.0
 Adult Kruthik,2.0
 Adult Oblex,5.0
 Adult White Dragon,13.0
@@ -79,6 +81,7 @@ Bugbear Chief,3.0
 Bulette,5.0
 Bulezau,3.0
 Bullywug,0.25
+Cadaver Collector,14.0
 Cambion,5.0
 Camel,0.125
 Canoloth,8.0
@@ -124,6 +127,7 @@ Darkmantle,0.5
 Death Dog,1.0
 Death Kiss,10.0
 Death Slaad,10.0
+Death Tyrant,14.0
 Deathlock,4.0
 Deathlock Mastermind,8.0
 Deathlock Wight,3.0
@@ -154,6 +158,7 @@ Drow,0.25
 Drow Arachnomancer,13.0
 Drow Elite Warrior,5.0
 Drow House Captain,9.0
+Drow Inquisitor,14.0
 Drow Mage,7.0
 Drow Priestess of Lolth,8.0
 Drow Shadowblade,11.0
@@ -177,6 +182,7 @@ Earth Elemental,5.0
 Earth Elemental Myrmidon,7.0
 Efreeti,11.0
 Eidolon,12.0
+Elder Brain,14.0
 Elder Oblex,10.0
 Elephant,4.0
 Elk,0.25
@@ -196,6 +202,7 @@ Female Steeder,1.0
 Fire Elemental,5.0
 Fire Elemental Myrmidon,7.0
 Fire Giant,9.0
+Fire Giant Dreadnought,14.0
 Fire Snake,1.0
 Firenewt Warlock of Imix,1.0
 Firenewt Warrior,0.5
@@ -256,6 +263,7 @@ Girallon,4.0
 Githyanki Gish,10.0
 Githyanki Kith'rak,12.0
 Githyanki Knight,8.0
+Githyanki Supreme Commander,14.0
 Githyanki Warrior,3.0
 Githzerai Enlightened,10.0
 Githzerai Monk,2.0
@@ -314,6 +322,7 @@ Hunter Shark,2.0
 Hydra,8.0
 Hydroloth,9.0
 Hyena,0.0
+Ice Devil,14.0
 Ice Mephit,0.5
 Illusionist Wizard,3.0
 Imp,1.0
@@ -450,6 +459,7 @@ Red Slaad,5.0
 Redcap,3.0
 Reef Shark,0.5
 Remorhaz,11.0
+Retriever,14.0
 Revenant,5.0
 Rhinoceros,2.0
 Riding Horse,0.25
