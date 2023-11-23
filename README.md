@@ -1,17 +1,6 @@
 # 5e Combat Predictor
 
-This is a D&D 5th Edition Combat Ecounter predictor using Machine Learning algorithms. The goal is to predict the outcome of a combat encounter based on the stats of the players and the monsters, classifying the encounter in cattegories such as "Very Easy", "Easy","Medium", "Hard", "Very Hard" and "TPK" following a set of criteria defined by me.
-
-## Table of dificulty
-
-| Difficulty | Threshold |
-|------------|-----------|
-|Very Easy   | All party members with more than half their life left |
-|Easy        | At least 2 party members with more than half their life left, and none unconscious |
-|Medium      | At least 1 party member with more than half their life left, and none unconscious |
-|Hard        | At least 1 party member with more than half their life left, and at least 1 unconscious |
-|Very Hard   | At least 2 party members unconscious, and at least 1 conscious |
-|TPK         | All party members unconscious |
+This is a D&D 5th Edition Combat Ecounter Predictor using Machine Learning algorithms. The goal is to predict the outcome of a combat encounter based on the stats of the players and the monsters, classifying the encounter using the weighted average of the players' remaining hitpoints after the encounter. Therefore, the difficulty of the encounter is a score from 0-1, beeing 0 a TPK (Total Party Kill) and 1 a victory for the players, where they didn't take any damage.
 
 ## Data
 
@@ -22,8 +11,6 @@ And to minimize the margin of error even further, I had to take some liberties w
 ### Data collection
 
 The data was collected by running the simulator 100.000. Every time I generated a new random party, with 3-5 PCs, levels 1-5, and 1-5 monsters, CR 1/8-13. I did that way because most parties are between 3 to 5 players, and in 5e, when you get past level 5 abilities start to get a bit to crazy/unpredictable, so I decided to limit the data to level 5. And the same goes for the monsters, most of the time you will be fighting 1-5 monsters, and to avoid the case of trowing 5 liches against a party of 3 level PCs, I limited the CR to 13, with shoukd be the maximum a oarty of 5 level 5 PCs would encounter.
-
-### Data cleaning
 
 
 ### Dataset
@@ -37,7 +24,6 @@ The dataset is a csv file with 100.000 rows and _ columns, with the following co
 |$P_i$ _armour_class|The armour class of the respective player, $1\le i\le 5$ (``integer``)|
 |$P_i$ _avg_save|The value of the average saving throw of the respective player, $1\le i\le 5$ (``integer``)|
 |Players_level|The level of the party (``integer``)|
-|Party_total_hp|The total hp of the party combined|
 |Monster_name|Name of the monster (``string``)|
 |Monster_ac|The armour class of the monster (``integer``)|
 |Monster_size|The size of the monster *(T,S,M,L,H,G)* (``string``)|
@@ -45,7 +31,6 @@ The dataset is a csv file with 100.000 rows and _ columns, with the following co
 |N_monsters|Number of monsters in the encounter (``integer``)|
 |Monster_cr_rating|The value of the monster's Chalenge Rating (``float``)|
 |Monster_hp|The total hitpoints of the monster (``integer``)|
-|Party_remaining_hp|The total hitpoints remained for the whole party after the encounter, $1\le i\le 5$ (``integer``)|
 |Encounter_difficulty|The difficulty of the encounter (``string``)|
 
 ### Inputs/Outputs
