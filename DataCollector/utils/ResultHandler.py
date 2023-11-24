@@ -89,10 +89,10 @@ class ResultHandler:
         '''
         result = ''
         for player in players:
-            result += f'{player["class"]},{player["level"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
+            result += f'{player["class"]},{player["hitpoints"]},{player["armour_class"]},{player["avg_save"]},'
 
         with open(WRITING_FILE, 'a') as f:
-            result += f'{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{enemies.type},{life_results}'
+            result += f'{enemies.num_enemies},{enemies.name},{enemies.cr},{enemies.ac},{enemies.hp},{enemies.type},{life_results},{player["level"]}'
             f.write(f'\n{result}')
             f.close()
         

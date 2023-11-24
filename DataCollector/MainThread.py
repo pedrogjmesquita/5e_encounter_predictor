@@ -14,9 +14,9 @@ def execute():
     main function
     '''
     # create a new Edge browser instance
-    options = webdriver.EdgeOptions()
+    options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    driver = webdriver.Edge(options=options)
+    driver = webdriver.Chrome(options=options)
 
 
     
@@ -62,3 +62,6 @@ def execute():
 
     # close the browser
     driver.quit()
+
+if __name__ == "__main__":
+    execute()

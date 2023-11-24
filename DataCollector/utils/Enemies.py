@@ -44,7 +44,7 @@ class Enemies():
         treshhold = randint(limits[0], limits[1])
         if(self.cr <= 0.5): 
             return 10
-        while(self.cr*num_enemies < treshhold and num_enemies < MAX_NUM_OF_ENEMIES):
+        while(self.cr*num_enemies < treshhold and num_enemies < MAX_NUM_OF_ENEMIES[self.players_level]):
             num_enemies += 1
         return num_enemies
     

@@ -2,7 +2,13 @@
 
 WRITING_FILE = 'Data/results_v6.csv'
 
-MAX_NUM_OF_ENEMIES = 10
+MAX_NUM_OF_ENEMIES = {
+    1: 6,
+    2: 8,
+    3: 10,
+    4: 12,
+    5: 24
+}
 
 HITDICE = {
     'Artificer': 8,
@@ -53,7 +59,7 @@ CLASSES = [
 ]
 
 MAX_CR_PER_LEVEL = [
-    3,
+    4,
     7,
     8,
     10,
