@@ -24,7 +24,6 @@ def input_data():
     enemies_type = input("Enemies Type: ").lower()
 
     data = {
-        'level': level,
         'p1_class': player_data[0]['Class'],
         'p1_hp': player_data[0]['Hitpoints'],
         'p1_ac': player_data[0]['ac'],
@@ -45,7 +44,8 @@ def input_data():
         'monster_cr': enemies_cr,
         'monster_ac': enemies_ac,
         'monster_hp': enemies_hitpoints,
-        'monster_type': enemies_type
+        'monster_type': enemies_type,
+        'players_level': level
     }
     
     return data
@@ -65,7 +65,11 @@ def confidence_interval_sample(distribuition):
 
 def encode_and_normalize_Data(data, encoder, normalizer):
     data_features_df = encoder.transform(data[['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type']])
-    data_encoded = pd.concat([data, data_features_df], axis=1).drop(columns=['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type', 'monster_name','dificulty'])
+    try:
+        data_encoded = pd.concat([data, data_features_df], axis=1).drop(columns=['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type', 'monster_name','dificulty'])
+    except:
+        data_encoded = pd.concat([data, data_features_df], axis=1).drop(columns=['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type'])
+        
     data_encoded_normalized = normalizer.transform(data_encoded)
     return data_encoded_normalized    
 

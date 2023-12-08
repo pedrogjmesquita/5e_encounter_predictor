@@ -5,7 +5,7 @@ import pandas as pd
 import numpy as np
 import pickle
 import os
-from utils import encode_and_normalize_Data, predict_difficulty,predict_tpk, confidence_interval_sample
+from utils import encode_and_normalize_Data, predict_difficulty,predict_tpk, confidence_interval_sample, input_data
 
 new_data = pd.read_csv('Data/test_sample.csv', encoding='utf-8')
 m = len(new_data)-1
@@ -14,8 +14,13 @@ for i in range(m):
 
     new_data = pd.read_csv('Data/test_sample.csv', encoding='utf-8')
     n = random.randint(0, len(new_data)-1)
-    new_data = new_data.iloc[i].T.to_frame().T
-
+    escolha = input(f'Modo (1-auto|2-manual): ')
+    
+    if escolha == '1':
+        input_data = new_data.iloc[i].T.to_frame().T
+    else:
+        input_data = pd.DataFrame(input_data(), index=[0])
+        print(new_data)
 
     with open('Model/encoder.pkl', 'rb') as f:
         encoder = pickle.load(f)
@@ -23,7 +28,7 @@ for i in range(m):
         normalizer = pickle.load(f)
 
 
-    data_encoded_normalized = encode_and_normalize_Data(new_data, encoder, normalizer)
+    data_encoded_normalized = encode_and_normalize_Data(input_data, encoder, normalizer)
 
     regression_prediction = predict_difficulty(data_encoded_normalized)
     classification_prediction = predict_tpk(data_encoded_normalized)
