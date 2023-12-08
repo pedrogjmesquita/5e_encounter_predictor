@@ -103,7 +103,6 @@ Sorcerer,18,11,3,Ranger,30,13,3,Rogue,25,13,3,Artificer,26,12,3,4,Berserker,2.0,
 Bard,21,12,3,Artificer,38,18,3,Ranger,35,17,3,Druid,32,13,3,2,Redcap,3.0,14,45,fey,1.0,4
 Fighter,20,18,2,Wizzard,17,14,2,Barbarian,27,17,2,Artificer,15,18,2,1,Nothic,2.0,15,45,aberration,0.9548189912105853,2
 Monk,16,12,3,Monk,20,16,3,Druid,21,11,3,Monk,20,10,3,10,Jackal,0.0,12,3,beast,1.0,3
-Wizzard,19,10,3,Bard,21,13,3,Wizzard,18,13,3,Fighter,28,16,3,10,Sacred Statue,-1.0,19,95,construct,0.0,3
 Paladin,17,18,2,Druid,16,13,2,Paladin,21,19,2,Bard,20,14,2,4,Brown Bear,1.0,11,34,beast,0.06320318628010936,2
 Barbarian,41,13,3,Cleric,31,13,3,Paladin,36,19,3,Fighter,30,17,3,1,Draegloth,7.0,15,123,fiend,0.4475703155012323,4
 Cleric,7,14,2,Rogue,6,15,2,Artificer,8,16,2,Barbarian,9,13,2,2,Hippogriff,1.0,11,19,monstrosity,0.6351515151515151,1
@@ -258,7 +257,6 @@ Rogue,43,13,3,Warlock,34,11,3,Artificer,31,16,3,Sorcerer,35,14,3,10,Scout,0.5,13
 Druid,10,11,2,Cleric,15,16,2,Sorcerer,13,14,2,Bard,15,15,2,2,Peryton,2.0,13,33,monstrosity,0.9426997245179063,2
 Paladin,45,18,3,Paladin,33,18,3,Cleric,34,13,3,Bard,39,14,3,1,Drow Elite Warrior,5.0,18,71,humanoid,0.833414347804457,5
 Cleric,8,19,2,Ranger,11,17,2,Artificer,8,14,2,Paladin,8,17,2,10,Jackalwere,0.5,12,18,humanoid,0.0,1
-Fighter,10,16,2,Bard,8,12,2,Cleric,10,17,2,Paladin,7,19,2,10,Sacred Statue,-1.0,19,95,construct,0.0,1
 Warlock,6,13,2,Paladin,9,14,2,Artificer,7,16,2,Barbarian,8,14,2,10,Flying Snake,0.125,14,5,beast,0.0,1
 Fighter,42,13,3,Druid,31,14,3,Barbarian,44,16,3,Monk,36,12,3,1,Draegloth,7.0,15,123,fiend,0.3933985047492363,4
 Warlock,8,12,2,Wizzard,7,11,2,Fighter,9,19,2,Wizzard,5,13,2,1,Faerie Dragon (Green),2.0,15,14,dragon,1.0,1
@@ -351,7 +349,6 @@ Sorcerer,10,15,2,Sorcerer,8,15,2,Sorcerer,15,13,2,Druid,16,16,2,10,Jackalwere,0.
 Fighter,18,13,2,Fighter,15,16,2,Sorcerer,16,11,2,Wizzard,13,10,2,10,Aarakocra,0.25,12,13,humanoid,0.0,2
 Wizzard,36,11,3,Monk,40,14,3,Artificer,25,14,3,Bard,39,14,3,5,Black Dragon Wyrmling,2.0,17,33,dragon,0.0,5
 Artificer,16,18,3,Bard,20,16,3,Sorcerer,18,12,3,Wizzard,15,13,3,10,Riding Horse,0.25,10,13,beast,0.5345660749506903,3
-Paladin,37,17,3,Druid,42,15,3,Monk,45,13,3,Warlock,36,11,3,10,Sacred Statue,-1.0,19,95,construct,0.0,5
 Rogue,38,15,3,Sorcerer,32,14,3,Wizzard,24,12,3,Druid,26,13,3,2,Yeti,3.0,12,51,monstrosity,0.0,4
 Warlock,23,15,3,Barbarian,37,17,3,Cleric,33,15,3,Warlock,21,13,3,3,Tanarukk,5.0,14,95,fiend,0.0,4
 Sorcerer,4,13,2,Monk,6,12,2,Fighter,7,14,2,Rogue,10,17,2,10,Slaad Tadpole,0.125,12,10,aberration,0.0,1
@@ -623,7 +620,6 @@ Bard,33,14,3,Druid,36,11,3,Paladin,35,16,3,Warlock,37,13,3,10,Swarm of Bats,0.25
 Artificer,7,18,2,Cleric,4,14,2,Wizzard,9,14,2,Ranger,11,17,2,1,Hobgoblin Iron Shadow,2.0,15,32,fey,0.5370669354902223,1
 Bard,37,16,3,Ranger,35,16,3,Barbarian,60,14,3,Artificer,24,18,3,9,Giant Eagle,1.0,13,26,beast,0.585687835130083,5
 Artificer,8,18,2,Druid,4,13,2,Cleric,8,17,2,Druid,7,15,2,1,Female Steeder,1.0,14,30,monstrosity,0.6597222222222223,1
-Monk,23,15,3,Barbarian,46,14,3,Ranger,32,16,3,Monk,28,11,3,10,Sacred Statue,-1.0,19,95,construct,0.0,4
 Wizzard,12,10,2,Barbarian,16,17,2,Bard,13,15,2,Ranger,18,17,2,1,Yeth Hound,4.0,14,51,fey,0.553119412044556,2
 Barbarian,53,15,3,Barbarian,52,15,3,Fighter,52,14,3,Sorcerer,30,13,3,2,Maurezhi,7.0,15,88,fiend,0.8425923918010263,5
 Fighter,32,14,3,Rogue,27,17,3,Barbarian,24,15,3,Bard,22,15,3,1,Lost Sorrowsworn,7.0,15,78,monstrosity,0.5324089746483113,3
@@ -833,7 +829,6 @@ Monk,17,12,2,Wizzard,12,10,2,Artificer,13,14,2,Druid,16,12,2,2,Deinonychus,1.0,1
 Druid,7,14,2,Cleric,7,16,2,Warlock,6,14,2,Bard,9,14,2,1,Quaggoth,2.0,13,45,humanoid,0.4120277218868768,1
 Wizzard,27,14,3,Artificer,43,17,3,Rogue,40,16,3,Rogue,36,13,3,10,Constrictor Snake,0.25,12,13,beast,0.8957458453834558,5
 Monk,19,13,3,Artificer,15,13,3,Barbarian,27,17,3,Paladin,31,15,3,10,Male Steeder,0.25,12,13,monstrosity,0.0,3
-Fighter,12,15,2,Rogue,16,12,2,Sorcerer,11,11,2,Ranger,21,17,2,10,Sacred Statue,-1.0,19,95,construct,0.0,2
 Druid,22,12,3,Paladin,22,18,3,Barbarian,24,17,3,Artificer,20,18,3,7,Quasit,1.0,13,7,fiend,0.92078460958129,3
 Wizzard,22,14,3,Artificer,38,16,3,Fighter,39,14,3,Bard,24,14,3,1,Armanite,7.0,16,94,fiend,0.0,4
 Warlock,17,13,2,Sorcerer,9,12,2,Ranger,20,14,2,Bard,15,16,2,1,Girallon,4.0,13,59,monstrosity,0.07850627137970353,2
@@ -1702,7 +1697,6 @@ Bard,18,16,3,Warlock,24,12,3,Druid,28,14,3,Barbarian,35,15,3,1,Grung Elite Warri
 Wizzard,6,13,2,Warlock,6,16,2,Sorcerer,6,12,2,Artificer,10,18,2,1,Choldrith,3.0,15,66,monstrosity,0.0,1
 Druid,28,12,3,Sorcerer,22,13,3,Ranger,29,12,3,Artificer,32,15,3,1,Knight,3.0,18,52,humanoid,0.0,4
 Wizzard,23,11,3,Sorcerer,26,15,3,Monk,28,13,3,Warlock,26,14,3,3,Lamia,4.0,13,97,monstrosity,0.0,4
-Cleric,7,17,2,Monk,11,13,2,Cleric,7,13,2,Wizzard,6,10,2,10,Sacred Statue,-1.0,19,95,construct,0.0,1
 Sorcerer,33,12,3,Druid,30,13,3,Druid,47,16,3,Monk,32,11,3,3,Dolphin Delighter,3.0,14,27,fey,1.0,5
 Warlock,33,16,3,Bard,50,15,3,Monk,43,13,3,Fighter,54,16,3,10,Myconid Sprout,0.0,10,7,plant,0.9689650845484574,5
 Sorcerer,12,11,3,Barbarian,34,17,3,Fighter,26,18,3,Monk,30,16,3,1,Drow Elite Warrior,5.0,18,71,humanoid,0.6576221938273912,3
@@ -2223,7 +2217,7 @@ Sorcerer,22,15,3,Sorcerer,28,14,3,Paladin,46,17,3,Paladin,41,16,3,3,Orc War Chie
 Fighter,50,12,3,Barbarian,49,16,3,Warlock,40,12,3,Artificer,37,13,3,2,Quaggoth Thonot,3.0,13,45,humanoid,0.9734949428648147,5
 Cleric,20,14,3,Bard,22,16,3,Barbarian,36,12,3,Rogue,16,15,3,1,Banshee,4.0,12,58,undead,0.8138420232233965,3
 Bard,7,13,2,Ranger,10,12,2,Wizzard,6,15,2,Wizzard,9,14,2,1,Giant Constrictor Snake,2.0,12,60,beast,0.3138646922183508,1
-Sorcerer,16,12,3,Sorcerer,9,14,3,Wizzard,20,14,3,Artificer,27,12,3,10,Satyr,0.5,14,31,fey,-1,3
+Sorcerer,16,12,3,Sorcerer,9,14,3,Wizzard,20,14,3,Artificer,27,12,3,10,Satyr,0.5,14,31,fey,0,3
 Sorcerer,23,10,3,Rogue,23,17,3,Warlock,22,12,3,Monk,25,10,3,1,Spined Devil,2.0,13,22,fiend,0.9443191196698763,3
 Rogue,26,14,3,Sorcerer,21,15,3,Ranger,20,14,3,Fighter,29,16,3,5,Sea Spawn,1.0,11,32,monstrosity,0.4142971606606194,3
 Paladin,52,16,3,Barbarian,51,15,3,Artificer,38,16,3,Fighter,51,12,3,2,Spined Devil,2.0,13,22,fiend,1.0,5
@@ -3497,7 +3491,6 @@ Monk,9,10,2,Warlock,4,14,2,Warlock,7,13,2,Druid,4,11,2,10,Grung,0.25,12,11,human
 Monk,37,11,3,Paladin,41,16,3,Ranger,33,14,3,Warlock,42,13,3,9,Peryton,2.0,13,33,monstrosity,0.3641546336834658,5
 Sorcerer,27,12,3,Fighter,46,16,3,Sorcerer,32,14,3,Monk,35,15,3,10,Lizardfolk,0.5,15,22,humanoid,0.5902847310905847,4
 Paladin,16,16,2,Ranger,23,15,2,Druid,12,15,2,Warlock,9,11,2,10,Awakened Shrub,0.0,9,10,plant,1.0,2
-Sorcerer,24,15,3,Sorcerer,13,14,3,Monk,26,16,3,Warlock,29,11,3,10,Sacred Statue,-1.0,19,95,construct,0.0,3
 Bard,26,12,3,Wizzard,22,10,3,Sorcerer,23,13,3,Sorcerer,17,14,3,10,Oblex Spawn,0.25,13,18,ooze,0.0,3
 Fighter,29,15,3,Barbarian,36,15,3,Artificer,17,17,3,Fighter,31,13,3,2,Bulezau,3.0,14,52,fiend,0.7401081058038478,3
 Monk,32,14,3,Fighter,47,18,3,Rogue,35,15,3,Bard,37,12,3,1,Merregon,4.0,16,45,fiend,0.9539456515446605,4
@@ -3887,7 +3880,6 @@ Artificer,26,13,3,Rogue,21,13,3,Cleric,32,15,3,Wizzard,31,10,3,1,Red Slaad,5.0,1
 Cleric,28,13,3,Bard,26,14,3,Monk,24,13,3,Fighter,26,16,3,10,Swarm of Spiders,0.5,12,22,beast,0.0,3
 Wizzard,10,14,2,Wizzard,11,10,2,Rogue,13,14,2,Rogue,16,14,2,3,Kobold Dragonshield,1.0,15,44,dragon,0.0,2
 Wizzard,23,15,3,Rogue,31,13,3,Wizzard,29,10,3,Bard,46,15,3,4,Nightmare,3.0,13,68,fiend,0.14600758373406889,5
-Paladin,27,16,3,Cleric,18,15,3,Warlock,28,16,3,Barbarian,32,15,3,10,Sacred Statue,-1.0,19,95,construct,0.0,3
 Ranger,10,17,2,Monk,4,10,2,Bard,7,13,2,Barbarian,9,13,2,10,Neogi Hatchling,0.125,11,7,aberration,0.0,1
 Artificer,24,16,3,Druid,26,14,3,Ranger,38,12,3,Wizzard,20,10,3,2,Tortle Druid,2.0,17,33,humanoid,1.0,4
 Monk,26,11,3,Ranger,28,12,3,Druid,25,15,3,Artificer,18,15,3,10,Rust Monster,0.5,14,27,monstrosity,0.9362791909191449,3
@@ -4197,7 +4189,6 @@ Sorcerer,13,14,3,Rogue,16,16,3,Barbarian,27,13,3,Bard,21,16,3,1,Mezzoloth,5.0,18
 Bard,35,16,3,Rogue,28,13,3,Paladin,45,17,3,Sorcerer,29,14,3,2,Gray Slaad,9.0,18,127,aberration,0.6218388390384896,5
 Warlock,9,16,2,Cleric,8,17,2,Paladin,10,15,2,Sorcerer,5,10,2,10,Piercer,0.5,15,22,monstrosity,0.0,1
 Sorcerer,19,10,3,Sorcerer,15,14,3,Sorcerer,16,14,3,Wizzard,24,10,3,2,Swarm of Poisonous Snakes,2.0,14,36,beast,0.2696382762598351,3
-Sorcerer,26,15,3,Bard,20,12,3,Bard,25,15,3,Wizzard,23,11,3,2,Wood Woad,5.0,18,75,plant,-1,4
 Druid,33,14,3,Rogue,43,14,3,Wizzard,34,15,3,Rogue,36,12,3,5,Darkling Elder,2.0,15,27,fey,0.9065627989028305,5
 Paladin,9,16,2,Cleric,11,17,2,Fighter,12,14,2,Artificer,8,17,2,10,Tortle,0.25,17,22,humanoid,0.0,1
 Warlock,15,16,2,Rogue,15,17,2,Cleric,13,19,2,Sorcerer,10,12,2,10,Darkmantle,0.5,11,22,monstrosity,0.0,2
@@ -4354,7 +4345,6 @@ Paladin,45,18,3,Barbarian,44,13,3,Artificer,29,16,3,Ranger,42,16,3,1,Cloud Giant
 Warlock,31,13,3,Druid,37,11,3,Ranger,44,16,3,Artificer,37,17,3,10,Giant Centipede,0.25,13,4,beast,0.7244937701125822,5
 Barbarian,53,13,3,Artificer,33,16,3,Monk,42,14,3,Monk,38,12,3,2,Chimera,6.0,14,114,monstrosity,0.6216704417489889,5
 Sorcerer,6,12,2,Wizzard,8,15,2,Druid,4,15,2,Artificer,8,14,2,1,Yeti,3.0,12,51,monstrosity,0.0,1
-Warlock,32,13,3,Paladin,29,14,3,Fighter,32,12,3,Artificer,30,14,3,10,Sacred Statue,-1.0,19,95,construct,0.0,4
 Wizzard,26,10,3,Sorcerer,29,13,3,Barbarian,48,12,3,Fighter,47,19,3,3,Death Dog,1.0,12,39,monstrosity,0.9614650702606368,5
 Rogue,10,16,2,Monk,10,11,2,Druid,7,14,2,Bard,6,12,2,1,Giant Scorpion,3.0,15,52,beast,0.6074766355140188,1
 Monk,7,13,2,Rogue,9,12,2,Warlock,5,16,2,Sorcerer,4,15,2,1,Phase Spider,3.0,13,32,monstrosity,0.6392333709131905,1

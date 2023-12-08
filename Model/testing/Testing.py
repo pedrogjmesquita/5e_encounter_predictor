@@ -7,13 +7,10 @@ import pickle
 import os
 from utils import encode_and_normalize_Data, predict_difficulty,predict_tpk, confidence_interval_sample
 
-
-
-import xgboost as xgb
 new_data = pd.read_csv('Data/test_sample.csv', encoding='utf-8')
 m = len(new_data)-1
 results = []
-for i in range(500):
+for i in range(m):
 
     new_data = pd.read_csv('Data/test_sample.csv', encoding='utf-8')
     n = random.randint(0, len(new_data)-1)
@@ -35,9 +32,12 @@ for i in range(500):
     print(f'Prediction: dificulty: {regression_prediction}\tPossible TPK: {classification_prediction}')
     print(f'Expected: dificulty: {expected}')
 
-    error = abs(regression_prediction - expected)
+    error = (regression_prediction - expected)
+    if(error > 1):
+        time.sleep(1000)
+        print(new_data)
     results.append(error)
-    # time.sleep(1)
+    time.sleep(1)
     os.system('cls')
     print("Simulating: ")
     print(f"{i}/{m}")
@@ -46,17 +46,16 @@ mean = np.mean(results)
 max = np.max(results)
 min = np.min(results)
 std = np.std(results)
-lower_estimate, upper_estimate, normalized_results = confidence_interval_sample(results)
+# lower_estimate, upper_estimate, normalized_results = confidence_interval_sample(results)
 print(f'Number of tests: {len(results)}')
 print(f'Average error: {mean}')
 print(f'Max error: {max}')
 print(f'Min error: {min}')
 print(f'Standard deviation: {std}')
-print(f'Model error interval (with 99% confidence) using samples: {lower_estimate} - {upper_estimate}')
 
 
 # plt.hist(results, bins=20)
 # plt.show()
-plt.hist(normalized_results, bins=20)
+plt.hist(results, bins='auto')
 plt.show()
-plt.savefig('Images/RegressionModelErrors.png')
+pd.DataFrame(results).to_csv('Data/RegressionModelErrorsNonAbsolute.csv', index=False, header='Error')
