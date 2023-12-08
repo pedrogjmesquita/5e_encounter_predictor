@@ -1,4 +1,7 @@
+import pandas as pd
 import numpy as np
+from sklearn.discriminant_analysis import StandardScaler
+import xgboost
 
 
 def input_data():
@@ -47,14 +50,38 @@ def input_data():
     
     return data
 
-def confidence_interval_sample(mean, std, n):
+def confidence_interval_sample(distribuition):
+    scaler = StandardScaler()
+    distribuition = scaler.fit_transform(np.array(distribuition).reshape(-1,1))
+    
+    mean = np.mean(distribuition)
+    std = np.std(distribuition)
+    n = len(distribuition)
     t = 2.326 # 99% confidence interval with (n-1)->inf
     lower = mean - t * std / np.sqrt(n)
     upper = mean + t * std / np.sqrt(n)
-    return [lower, upper]
+    return [lower, upper, distribuition]
 
-def confidence_interval_population(mean, std, n):
-    z = 2.575 # 99% confidence interval with (n-1)->inf
-    lower = mean - z * std / np.sqrt(n)
-    upper = mean + z * std / np.sqrt(n)
-    return [lower, upper]
+
+def encode_and_normalize_Data(data, encoder, normalizer):
+    data_features_df = encoder.transform(data[['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type']])
+    data_encoded = pd.concat([data, data_features_df], axis=1).drop(columns=['p1_class', 'p2_class', 'p3_class', 'p4_class', 'monster_type', 'monster_name','dificulty'])
+    data_encoded_normalized = normalizer.transform(data_encoded)
+    return data_encoded_normalized    
+
+def predict_difficulty(data):
+    regression_model = xgboost.XGBRegressor()
+    regression_model.load_model('Model\model_OPT_NORMALIZED.ubj')
+    prediction = round(regression_model.predict(data)[0], 3)
+
+    if prediction < 0:
+        prediction = 0.0
+    elif prediction > 1:
+        prediction = 1.0
+
+    return round(float(prediction), 3)
+
+def predict_tpk(data):
+    classification_model = xgboost.XGBClassifier()
+    classification_model.load_model('Model\model_opt_normalized_classification.ubj')
+    return classification_model.predict(data)[0]
