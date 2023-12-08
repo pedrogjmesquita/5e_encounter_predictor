@@ -36,13 +36,12 @@ for i in range(m):
 
     print(f'Prediction: dificulty: {regression_prediction}\tPossible TPK: {classification_prediction}')
     print(f'Expected: dificulty: {expected}')
-
+    time.sleep(5)
     error = (regression_prediction - expected)
     if(error > 1):
         time.sleep(1000)
         print(new_data)
     results.append(error)
-    time.sleep(1)
     os.system('cls')
     print("Simulating: ")
     print(f"{i}/{m}")
@@ -51,7 +50,6 @@ mean = np.mean(results)
 max = np.max(results)
 min = np.min(results)
 std = np.std(results)
-# lower_estimate, upper_estimate, normalized_results = confidence_interval_sample(results)
 print(f'Number of tests: {len(results)}')
 print(f'Average error: {mean}')
 print(f'Max error: {max}')
