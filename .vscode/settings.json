@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
         "./DataCollector"
-    ]
+    ],
+    "git.ignoreLimitWarning": true
 }
