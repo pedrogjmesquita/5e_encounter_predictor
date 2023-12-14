@@ -4,8 +4,12 @@ This is a D&D 5th Edition Combat Ecounter Predictor using Machine Learning algor
 
 ## Data
 
-Since D&D is a locally (off web) played game, there isn't really much data out there on combat encounters in the game. So, I decided to create my own data set, using the [BattleSim](#https://battlesim-zeta.vercel.app/) created by the youtuber [Trekiros](https://www.youtube.com/@trekiros).<br><br>
-The following question might be "Since you are predicting the results of a simulated combat, there is a margin of error on top of the original margin of error of the simulator, so how can you be sure that the results are accurate?". Well, I can't, but I used the simulator a couple of times for real playercontrolled encounters, and the results were pretty accurate, so I'm confident that the results are accurate enough.<br><br>
+Since D&D is a locally (off web) played game, there isn't really much data out there on combat encounters in the game. So, I decided to create my own data set, using the [BattleSim](https://battlesim-zeta.vercel.app/) created by the youtuber [Trekiros](https://www.youtube.com/@trekiros)
+
+
+The following question might be "Since you are predicting the results of a simulated combat, there is a margin of error on top of the original margin of error of the simulator, so how can you be sure that the results are accurate?". Well, I can't, but I used the simulator a couple of times for real playercontrolled encounters, and the results were pretty accurate, so I'm confident that the results are accurate enough.
+
+
 And to minimize the margin of error even further, I had to take some liberties with the data.
 
 ### Data collection
